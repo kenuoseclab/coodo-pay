@@ -1,7 +1,5 @@
 <div align="center">
-
-    <img src="https://i.loli.net/2020/03/27/xdEUXeo6QDMWa2O.png"  width="80px" height="80px">
-
+<img src="https://i.loli.net/2020/03/27/xdEUXeo6QDMWa2O.png" width="80px" height="80px"/>
 </div>
   <h1 align="center">
     Coodo Pay
@@ -9,23 +7,21 @@
   <h3 align="center">
     一个基于 React 和 Koa2 开发的在线支付系统
   </h3>
-
 <p align="center">
     为独立开发者打造提供的会员支付解决方案
-  </p>
+</p>
 
 <p align="center">前台页面展示</p>
-
-<img src="https://i.loli.net/2020/03/27/mdRiGsCrvTacDNO.png
-" >
-
-  <img src="https://i.loli.net/2020/03/27/NUoDgYBcJxG3sOa.png" >
+<div align="center">
+<img src="https://i.loli.net/2020/03/27/mdRiGsCrvTacDNO.png" >
+<img src="https://i.loli.net/2020/03/27/NUoDgYBcJxG3sOa.png" >
+</div>
 
 <p align="center">后台管理系统展示</p>
 
 <div>
-
 <img src="https://i.loli.net/2020/03/27/YxmrGvB6IR5deTU.png" >
+</div>
 
 ## 简介
 
