@@ -1,7 +1,9 @@
 import React, { Component } from "react";
-import { Menu, Form, Input, Button, Descriptions, message } from "antd";
+import { Menu, Form, Input, Button, Descriptions, message, Modal } from "antd";
 import { connect } from "react-redux";
 // import "./index.css";
+import { withRouter } from "react-router-dom";
+import { ExclamationCircleOutlined } from "@ant-design/icons";
 import $axios from "@/$axios";
 const { Item } = Menu;
 const formItemLayoutWithOutLabel = {
@@ -32,9 +34,24 @@ class accountPage extends Component {
     this.state = {
       mode: "inline",
       menuMap,
-      selectKey: "info"
+      selectKey: "info",
+      loading: false
     };
   }
+  info = () => {
+    Modal.info({
+      title: "检查到新版本",
+      content: (
+        <div>
+          <p>快去 Github 更新吧！</p>
+        </div>
+      ),
+      onOk: () => {
+        this.setState({ loading: false });
+      }
+    });
+  };
+
   onFinish = values => {
     // console.log(values);
     $axios.post(`/user/${this.props.user._id}`, values).then(() => {
@@ -49,7 +66,22 @@ class accountPage extends Component {
   componentWillUnmount() {
     window.removeEventListener("resize", this.resize);
   }
-
+  checkUpdate = async () => {
+    this.setState({ loading: true });
+    await $axios
+      .get("https//coodopay.herokuapp.com/api/setting")
+      .then(result => {
+        if (result.data.version > this.props.setting.version) {
+          this.info();
+        } else {
+          message.success("暂无版本更新");
+          this.setState({ loading: false });
+        }
+      })
+      .catch(() => {
+        message.error("检查更新失败");
+      });
+  };
   getMenu = () => {
     const { menuMap } = this.state;
     return Object.keys(menuMap).map(item => (
@@ -104,14 +136,23 @@ class accountPage extends Component {
         <Descriptions.Item label="注册日期">
           {this.props.user.date}
         </Descriptions.Item>
-        <Descriptions.Item label="当前版本">0.1.0</Descriptions.Item>
-        <Descriptions.Item label="更新地址">
+        <Descriptions.Item label="当前版本">
+          {this.props.setting.version}
+        </Descriptions.Item>
+        <Descriptions.Item label="检查更新">
+          <Button
+            type="primary"
+            onClick={this.checkUpdate}
+            loading={this.state.loading}
+          >
+            检查更新
+          </Button>
           <a
             href="https://github.com/troyeguo/coodo-pay"
             target="_blank"
             rel="noopener noreferrer"
           >
-            点我前往
+            &nbsp;&nbsp;&nbsp;更新地址
           </a>
         </Descriptions.Item>
       </Descriptions>
@@ -294,10 +335,11 @@ class accountPage extends Component {
 }
 const mapStateToProps = state => {
   return {
-    user: state.form.user
+    user: state.form.user,
+    setting: state.product.setting
   };
 };
 const actionCreator = {
   // handleFetchForm
 };
-export default connect(mapStateToProps, actionCreator)(accountPage);
+export default connect(mapStateToProps, actionCreator)(withRouter(accountPage));

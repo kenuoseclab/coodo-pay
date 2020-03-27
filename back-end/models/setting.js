@@ -13,6 +13,10 @@ const settingSchema = new Schema({
     type: "string",
     enum: ["yes", "no"],
     required: true
+  },
+  version: {
+    type: "number",
+    required: true
   }
 });
 

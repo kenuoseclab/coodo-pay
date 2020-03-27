@@ -55,7 +55,7 @@ class Login extends Component {
   render() {
     return (
       <div className="login-container">
-        <img src="assets/login.svg" alt="" className="login-image" />
+        <img src="assets/default.svg" alt="" className="login-image" />
         <Row className="login-title" justify="center">
           <div style={{ width: "400px" }}>
             <img
