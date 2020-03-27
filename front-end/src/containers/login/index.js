@@ -55,7 +55,7 @@ class Login extends Component {
   render() {
     return (
       <div className="login-container">
-        <img src="assets/default.svg" alt="" className="login-image" />
+        <img src="assets/login.svg" alt="" className="login-image" />
         <Row className="login-title" justify="center">
           <div style={{ width: "400px" }}>
             <img
@@ -76,7 +76,9 @@ class Login extends Component {
           <div className="login-form">
             <Form
               className="login-form"
-              initialValues={{ remember: true }}
+              initialValues={{
+                remember: true
+              }}
               onFinish={this.onFinish}
               onFinishFailed={this.onFinishFailed}
             >
@@ -134,6 +136,7 @@ class Login extends Component {
                       placeholder="邮箱"
                       className="login-input"
                       prefix={<UserOutlined />}
+                      value="coodo@102410.xyz"
                     />
                   </FormItem>
                   <FormItem
@@ -145,6 +148,7 @@ class Login extends Component {
                       placeholder="密码"
                       prefix={<LockOutlined />}
                       className="login-input"
+                      value="123456"
                     />
                   </FormItem>
                   <Row justify="space-between">

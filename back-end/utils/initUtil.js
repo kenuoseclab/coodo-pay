@@ -10,9 +10,9 @@ const User = require("../models/user");
 
 class initUtil {
   async initData() {
-    await Setting.deleteMany({}, () => {
-      console.log("delete success");
-    });
+    // await Setting.deleteMany({}, () => {
+    //   console.log("delete success");
+    // });
     const alipay = await Alipay.find();
     if (alipay.length === 0) {
       await Alipay({
@@ -56,7 +56,7 @@ class initUtil {
       await Setting({
         themeOption: "default",
         isFirst: "yes",
-        version: 1.1
+        version: 1.0
       }).save();
     }
 

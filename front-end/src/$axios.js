@@ -7,7 +7,7 @@ const $axios = axios.create({
   baseURL:
     process.env.NODE_ENV === "development"
       ? "http://localhost:3001/api/"
-      : "https://coodo-demo.herokuapp.com/api/",
+      : "https://coodopay.herokuapp.com/api/",
   timeout: 6000,
   retry: 4,
   retryDelay: 1000
