@@ -1,0 +1,15 @@
+.paypal-title {
+  text-align: center;
+  font-size: 22px;
+  color: rgba(75, 75, 75, 0.8);
+
+  line-height: 50px;
+}
+.paypal-icon {
+  /* position: absolute;
+  top: 20px;
+  right: 40px; */
+  font-size: 50px;
+  color: #40a9ff;
+  margin-right: 20px;
+}

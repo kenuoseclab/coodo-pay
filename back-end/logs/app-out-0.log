@@ -1,0 +1,1017 @@
+2020-03-24 14:15:12: Listening on port 3002
+2020-03-24 14:15:16: 连接成功
+2020-03-24 14:15:38: Listening on port 3002
+2020-03-24 14:15:44: 连接成功
+2020-03-25 07:33:23: Listening on port 3001
+2020-03-25 07:33:27: 连接成功
+2020-03-25 07:37:10: Listening on port 3001
+2020-03-26 17:15:08: Listening on port 3001
+2020-03-26 17:15:12: 连接成功
+2020-03-27 09:42:19: Listening on port 3001
+2020-03-27 09:42:23: 连接成功
+2020-03-27 09:42:36:   <-- GET /
+2020-03-27 09:42:36:   --> GET / 200 18ms 2.28kb
+2020-03-27 09:42:36:   <-- GET /lib/echarts.min.js
+2020-03-27 09:42:36:   <-- GET /static/css/2.42459785.chunk.css
+2020-03-27 09:42:36:   --> GET /lib/echarts.min.js 200 12ms 362.48kb
+2020-03-27 09:42:36:   <-- GET /static/css/main.5023b946.chunk.css
+2020-03-27 09:42:36:   --> GET /static/css/2.42459785.chunk.css 200 17ms 416.01kb
+2020-03-27 09:42:36:   <-- GET /static/js/2.dc3ff322.chunk.js
+2020-03-27 09:42:36:   <-- GET /static/js/main.4a83f88b.chunk.js
+2020-03-27 09:42:36:   --> GET /static/css/main.5023b946.chunk.css 200 5ms 23.41kb
+2020-03-27 09:42:36:   --> GET /static/js/main.4a83f88b.chunk.js 200 4ms 113.44kb
+2020-03-27 09:42:36:   --> GET /static/js/2.dc3ff322.chunk.js 200 23ms 1.63mb
+2020-03-27 09:42:36:   <-- GET /assets/login.svg
+2020-03-27 09:42:36:   --> GET /assets/login.svg 200 6ms 8.72kb
+2020-03-27 09:42:36:   <-- GET /assets/logo.svg
+2020-03-27 09:42:36:   --> GET /assets/logo.svg 200 3ms 2.46kb
+2020-03-27 09:42:37:   <-- GET /favicon.png
+2020-03-27 09:42:37:   --> GET /favicon.png 200 7ms 3.13kb
+2020-03-27 09:42:45:   <-- GET /static/css/2.42459785.chunk.css
+2020-03-27 09:42:45:   <-- GET /static/css/main.5023b946.chunk.css
+2020-03-27 09:42:45:   --> GET /static/css/main.5023b946.chunk.css 200 3ms 23.41kb
+2020-03-27 09:42:45:   --> GET /static/css/2.42459785.chunk.css 200 6ms 416.01kb
+2020-03-27 09:42:45:   <-- GET /static/js/2.dc3ff322.chunk.js.map
+2020-03-27 09:42:45:   <-- GET /static/js/main.4a83f88b.chunk.js.map
+2020-03-27 09:42:45:   --> GET /static/js/main.4a83f88b.chunk.js.map 200 6ms 283.49kb
+2020-03-27 09:42:45:   --> GET /static/js/2.dc3ff322.chunk.js.map 200 125ms 5.16mb
+2020-03-27 09:42:45:   <-- GET /static/css/2.42459785.chunk.css.map
+2020-03-27 09:42:45:   --> GET /static/css/2.42459785.chunk.css.map 200 15ms 138.72kb
+2020-03-27 09:42:45:   <-- GET /static/css/main.5023b946.chunk.css.map
+2020-03-27 09:42:45:   --> GET /static/css/main.5023b946.chunk.css.map 200 3ms 16.86kb
+2020-03-27 09:49:15:   <-- GET /api/stats?year=2020&&month=3&&day=27
+2020-03-27 09:49:15:   <-- GET /api/salesData?year=2020&&month=1
+2020-03-27 09:49:15:   <-- GET /api/wechatPay
+2020-03-27 09:49:15:   <-- GET /api/salesData?year=2020&&month=3&&day=1
+2020-03-27 09:49:15:   <-- GET /api/salesData?year=2020&&month=3&&day=27
+2020-03-27 09:49:15:   <-- GET /api/paypal
+2020-03-27 09:49:16: GET /api/wechatPay - 224ms
+2020-03-27 09:49:16:   --> GET /api/wechatPay 200 246ms 132b
+2020-03-27 09:49:16:   <-- GET /api/email
+2020-03-27 09:49:17: GET /api/salesData?year=2020&&month=3&&day=27 - 1151ms
+2020-03-27 09:49:17:   --> GET /api/salesData?year=2020&&month=3&&day=27 200 1,235ms 2b
+2020-03-27 09:49:17: GET /api/salesData?year=2020&&month=3&&day=1 - 1142ms
+2020-03-27 09:49:17:   --> GET /api/salesData?year=2020&&month=3&&day=1 200 1,244ms 2b
+2020-03-27 09:49:17:   <-- GET /api/user
+2020-03-27 09:49:17:   <-- GET /api/setting/
+2020-03-27 09:49:17: GET /api/paypal - 2003ms
+2020-03-27 09:49:17:   --> GET /api/paypal 200 2,008ms 127b
+2020-03-27 09:49:17: GET /api/stats?year=2020&&month=3&&day=27 - 2009ms
+2020-03-27 09:49:17:   --> GET /api/stats?year=2020&&month=3&&day=27 200 2,144ms 169b
+2020-03-27 09:49:17:   <-- GET /api/product/
+2020-03-27 09:49:17: GET /api/salesData?year=2020&&month=1 - 2017ms
+2020-03-27 09:49:17:   --> GET /api/salesData?year=2020&&month=1 200 2,125ms 2b
+2020-03-27 09:49:17:   <-- GET /api/alipay
+2020-03-27 09:49:17:   <-- GET /api/salesData?number=-4
+2020-03-27 09:49:18: GET /api/product/ - 870ms
+2020-03-27 09:49:18:   --> GET /api/product/ 200 873ms 844b
+2020-03-27 09:49:18: GET /api/email - 2739ms
+2020-03-27 09:49:18: GET /api/setting/ - 1734ms
+2020-03-27 09:49:18: GET /api/user - 1731ms
+2020-03-27 09:49:18:   --> GET /api/email 200 2,744ms 214b
+2020-03-27 09:49:18:   --> GET /api/setting/ 200 1,740ms 70b
+2020-03-27 09:49:18:   --> GET /api/user 200 1,741ms 81b
+2020-03-27 09:49:18:   <-- GET /api/salesData?year=2020&&month=3&&day=2
+2020-03-27 09:49:18:   <-- GET /api/stats?number=-14
+2020-03-27 09:49:18:   <-- GET /api/salesData?year=2020&&month=2
+2020-03-27 09:49:19: GET /api/stats?number=-14 - 862ms
+2020-03-27 09:49:19:   --> GET /api/stats?number=-14 200 865ms 2b
+2020-03-27 09:49:19: GET /api/salesData?year=2020&&month=2 - 867ms
+2020-03-27 09:49:19:   --> GET /api/salesData?year=2020&&month=2 200 870ms 2b
+2020-03-27 09:49:19: GET /api/salesData?year=2020&&month=3&&day=2 - 877ms
+2020-03-27 09:49:19:   --> GET /api/salesData?year=2020&&month=3&&day=2 200 878ms 2b
+2020-03-27 09:49:19: GET /api/alipay - 1753ms
+2020-03-27 09:49:19:   --> GET /api/alipay 200 1,756ms 2.09kb
+2020-03-27 09:49:19: GET /api/salesData?number=-4 - 1730ms
+2020-03-27 09:49:19:   --> GET /api/salesData?number=-4 200 1,732ms 2b
+2020-03-27 09:49:19:   <-- GET /api/stats?number=-13
+2020-03-27 09:49:19:   <-- GET /api/salesData?number=-3
+2020-03-27 09:49:19: GET /api/stats?number=-13 - 126ms
+2020-03-27 09:49:19:   --> GET /api/stats?number=-13 200 129ms 2b
+2020-03-27 09:49:19: GET /api/salesData?number=-3 - 124ms
+2020-03-27 09:49:19:   --> GET /api/salesData?number=-3 200 127ms 2b
+2020-03-27 09:49:19:   <-- GET /api/salesData?year=2020&&month=3
+2020-03-27 09:49:19:   <-- GET /api/salesData?year=2020&&month=3&&day=3
+2020-03-27 09:49:19:   <-- GET /api/stats?number=-12
+2020-03-27 09:49:19:   <-- GET /api/salesData?number=-2
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=3 - 135ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=3 200 142ms 138b
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=3&&day=3 - 127ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=3&&day=3 200 133ms 2b
+2020-03-27 09:49:20: GET /api/stats?number=-12 - 131ms
+2020-03-27 09:49:20:   --> GET /api/stats?number=-12 200 135ms 2b
+2020-03-27 09:49:20: GET /api/salesData?number=-2 - 131ms
+2020-03-27 09:49:20:   --> GET /api/salesData?number=-2 200 133ms 2b
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=4
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=3&&day=4
+2020-03-27 09:49:20:   <-- GET /api/stats?number=-11
+2020-03-27 09:49:20:   <-- GET /api/salesData?number=-1
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=4 - 130ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=4 200 136ms 2b
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=3&&day=4 - 125ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=3&&day=4 200 130ms 2b
+2020-03-27 09:49:20: GET /api/stats?number=-11 - 120ms
+2020-03-27 09:49:20:   --> GET /api/stats?number=-11 200 124ms 2b
+2020-03-27 09:49:20: GET /api/salesData?number=-1 - 125ms
+2020-03-27 09:49:20:   --> GET /api/salesData?number=-1 200 132ms 2b
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=5
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=3&&day=5
+2020-03-27 09:49:20:   <-- GET /api/stats?number=-10
+2020-03-27 09:49:20:   <-- GET /api/salesData?number=0
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=5 - 126ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=5 200 128ms 2b
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=3&&day=5 - 127ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=3&&day=5 200 131ms 2b
+2020-03-27 09:49:20: GET /api/stats?number=-10 - 125ms
+2020-03-27 09:49:20:   --> GET /api/stats?number=-10 200 128ms 2b
+2020-03-27 09:49:20: GET /api/salesData?number=0 - 129ms
+2020-03-27 09:49:20:   --> GET /api/salesData?number=0 200 135ms 138b
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=3&&day=6
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=6
+2020-03-27 09:49:20:   <-- GET /api/stats?number=-9
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=3&&day=6 - 127ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=3&&day=6 200 133ms 2b
+2020-03-27 09:49:20: GET /api/stats?number=-9 - 130ms
+2020-03-27 09:49:20:   --> GET /api/stats?number=-9 200 134ms 2b
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=6 - 132ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=6 200 139ms 2b
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=3&&day=7
+2020-03-27 09:49:20:   <-- GET /api/stats?number=-8
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=7
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=3&&day=7 - 131ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=3&&day=7 200 135ms 2b
+2020-03-27 09:49:20: GET /api/salesData?year=2020&&month=7 - 119ms
+2020-03-27 09:49:20:   --> GET /api/salesData?year=2020&&month=7 200 125ms 2b
+2020-03-27 09:49:20: GET /api/stats?number=-8 - 135ms
+2020-03-27 09:49:20:   --> GET /api/stats?number=-8 200 139ms 2b
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=3&&day=8
+2020-03-27 09:49:20:   <-- GET /api/salesData?year=2020&&month=8
+2020-03-27 09:49:20:   <-- GET /api/stats?number=-7
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=8 - 119ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=8 200 122ms 2b
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=3&&day=8 - 123ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=3&&day=8 200 126ms 2b
+2020-03-27 09:49:21: GET /api/stats?number=-7 - 133ms
+2020-03-27 09:49:21:   --> GET /api/stats?number=-7 200 135ms 2b
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=9
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=3&&day=9
+2020-03-27 09:49:21:   <-- GET /api/stats?number=-6
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=9 - 123ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=9 200 128ms 2b
+2020-03-27 09:49:21: GET /api/stats?number=-6 - 128ms
+2020-03-27 09:49:21:   --> GET /api/stats?number=-6 200 132ms 2b
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=3&&day=9 - 148ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=3&&day=9 200 151ms 2b
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=10
+2020-03-27 09:49:21:   <-- GET /api/stats?number=-5
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=3&&day=10
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=10 - 129ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=10 200 133ms 2b
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=3&&day=10 - 124ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=3&&day=10 200 128ms 2b
+2020-03-27 09:49:21: GET /api/stats?number=-5 - 131ms
+2020-03-27 09:49:21:   --> GET /api/stats?number=-5 200 134ms 2b
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=11
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=3&&day=11
+2020-03-27 09:49:21:   <-- GET /api/stats?number=-4
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=11 - 124ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=11 200 126ms 2b
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=3&&day=11 - 123ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=3&&day=11 200 125ms 2b
+2020-03-27 09:49:21: GET /api/stats?number=-4 - 132ms
+2020-03-27 09:49:21:   --> GET /api/stats?number=-4 200 135ms 2b
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=12
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=3&&day=12
+2020-03-27 09:49:21:   <-- GET /api/stats?number=-3
+2020-03-27 09:49:21: GET /api/stats?number=-3 - 131ms
+2020-03-27 09:49:21:   --> GET /api/stats?number=-3 200 134ms 2b
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=12 - 158ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=12 200 161ms 2b
+2020-03-27 09:49:21: GET /api/salesData?year=2020&&month=3&&day=12 - 154ms
+2020-03-27 09:49:21:   --> GET /api/salesData?year=2020&&month=3&&day=12 200 158ms 2b
+2020-03-27 09:49:21:   <-- GET /api/stats?number=-2
+2020-03-27 09:49:21:   <-- GET /api/salesData?year=2020&&month=3&&day=13
+2020-03-27 09:49:22: GET /api/stats?number=-2 - 123ms
+2020-03-27 09:49:22:   --> GET /api/stats?number=-2 200 125ms 2b
+2020-03-27 09:49:22: GET /api/salesData?year=2020&&month=3&&day=13 - 131ms
+2020-03-27 09:49:22:   --> GET /api/salesData?year=2020&&month=3&&day=13 200 133ms 2b
+2020-03-27 09:49:22:   <-- GET /api/stats?number=-1
+2020-03-27 09:49:22:   <-- GET /api/salesData?year=2020&&month=3&&day=14
+2020-03-27 09:49:22: GET /api/stats?number=-1 - 132ms
+2020-03-27 09:49:22:   --> GET /api/stats?number=-1 200 134ms 2b
+2020-03-27 09:49:22: GET /api/salesData?year=2020&&month=3&&day=14 - 130ms
+2020-03-27 09:49:22:   --> GET /api/salesData?year=2020&&month=3&&day=14 200 132ms 2b
+2020-03-27 09:49:22:   <-- GET /api/stats?number=0
+2020-03-27 09:49:22:   <-- GET /api/salesData?year=2020&&month=3&&day=15
+2020-03-27 09:49:22: GET /api/stats?number=0 - 124ms
+2020-03-27 09:49:22:   --> GET /api/stats?number=0 200 126ms 505b
+2020-03-27 09:49:22: GET /api/salesData?year=2020&&month=3&&day=15 - 131ms
+2020-03-27 09:49:22:   --> GET /api/salesData?year=2020&&month=3&&day=15 200 133ms 2b
+2020-03-27 09:49:22:   <-- GET /api/salesData?year=2020&&month=3&&day=16
+2020-03-27 09:49:22: GET /api/salesData?year=2020&&month=3&&day=16 - 125ms
+2020-03-27 09:49:22:   --> GET /api/salesData?year=2020&&month=3&&day=16 200 129ms 2b
+2020-03-27 09:49:22:   <-- GET /api/salesData?year=2020&&month=3&&day=17
+2020-03-27 09:49:22: GET /api/salesData?year=2020&&month=3&&day=17 - 142ms
+2020-03-27 09:49:22:   --> GET /api/salesData?year=2020&&month=3&&day=17 200 145ms 2b
+2020-03-27 09:49:22:   <-- GET /api/salesData?year=2020&&month=3&&day=18
+2020-03-27 09:49:22: GET /api/salesData?year=2020&&month=3&&day=18 - 121ms
+2020-03-27 09:49:22:   --> GET /api/salesData?year=2020&&month=3&&day=18 200 123ms 2b
+2020-03-27 09:49:22:   <-- GET /api/salesData?year=2020&&month=3&&day=19
+2020-03-27 09:49:23: GET /api/salesData?year=2020&&month=3&&day=19 - 128ms
+2020-03-27 09:49:23:   --> GET /api/salesData?year=2020&&month=3&&day=19 200 130ms 2b
+2020-03-27 09:49:23:   <-- GET /api/salesData?year=2020&&month=3&&day=20
+2020-03-27 09:49:23: GET /api/salesData?year=2020&&month=3&&day=20 - 125ms
+2020-03-27 09:49:23:   --> GET /api/salesData?year=2020&&month=3&&day=20 200 128ms 2b
+2020-03-27 09:49:23:   <-- GET /api/salesData?year=2020&&month=3&&day=21
+2020-03-27 09:49:23: GET /api/salesData?year=2020&&month=3&&day=21 - 132ms
+2020-03-27 09:49:23:   --> GET /api/salesData?year=2020&&month=3&&day=21 200 134ms 2b
+2020-03-27 09:49:23:   <-- GET /api/salesData?year=2020&&month=3&&day=22
+2020-03-27 09:49:23: GET /api/salesData?year=2020&&month=3&&day=22 - 133ms
+2020-03-27 09:49:23:   --> GET /api/salesData?year=2020&&month=3&&day=22 200 136ms 2b
+2020-03-27 09:49:23:   <-- GET /api/salesData?year=2020&&month=3&&day=23
+2020-03-27 09:49:23: GET /api/salesData?year=2020&&month=3&&day=23 - 126ms
+2020-03-27 09:49:23:   --> GET /api/salesData?year=2020&&month=3&&day=23 200 129ms 2b
+2020-03-27 09:49:23:   <-- GET /api/salesData?year=2020&&month=3&&day=24
+2020-03-27 09:49:23: GET /api/salesData?year=2020&&month=3&&day=24 - 133ms
+2020-03-27 09:49:23:   --> GET /api/salesData?year=2020&&month=3&&day=24 200 135ms 2b
+2020-03-27 09:49:23:   <-- GET /api/salesData?year=2020&&month=3&&day=25
+2020-03-27 09:49:24: GET /api/salesData?year=2020&&month=3&&day=25 - 162ms
+2020-03-27 09:49:24:   --> GET /api/salesData?year=2020&&month=3&&day=25 200 165ms 138b
+2020-03-27 09:49:24:   <-- GET /api/salesData?year=2020&&month=3&&day=26
+2020-03-27 09:49:24: GET /api/salesData?year=2020&&month=3&&day=26 - 137ms
+2020-03-27 09:49:24:   --> GET /api/salesData?year=2020&&month=3&&day=26 200 139ms 2b
+2020-03-27 09:49:24:   <-- GET /api/salesData?year=2020&&month=3&&day=27
+2020-03-27 09:49:24: GET /api/salesData?year=2020&&month=3&&day=27 - 128ms
+2020-03-27 09:49:24:   --> GET /api/salesData?year=2020&&month=3&&day=27 200 131ms 2b
+2020-03-27 09:49:24:   <-- GET /api/salesData?year=2020&&month=3&&day=28
+2020-03-27 09:49:24: GET /api/salesData?year=2020&&month=3&&day=28 - 124ms
+2020-03-27 09:49:24:   --> GET /api/salesData?year=2020&&month=3&&day=28 200 127ms 2b
+2020-03-27 09:49:24:   <-- GET /api/salesData?year=2020&&month=3&&day=29
+2020-03-27 09:49:24: GET /api/salesData?year=2020&&month=3&&day=29 - 127ms
+2020-03-27 09:49:24:   --> GET /api/salesData?year=2020&&month=3&&day=29 200 130ms 2b
+2020-03-27 09:49:24:   <-- GET /api/salesData?year=2020&&month=3&&day=30
+2020-03-27 09:49:25: GET /api/salesData?year=2020&&month=3&&day=30 - 138ms
+2020-03-27 09:49:25:   --> GET /api/salesData?year=2020&&month=3&&day=30 200 141ms 2b
+2020-03-27 09:49:25:   <-- GET /api/salesData?year=2020&&month=3&&day=31
+2020-03-27 09:49:25: GET /api/salesData?year=2020&&month=3&&day=31 - 123ms
+2020-03-27 09:49:25:   --> GET /api/salesData?year=2020&&month=3&&day=31 200 126ms 2b
+2020-03-27 09:49:25:   <-- GET /api/order/all?year=2020&month=3
+2020-03-27 09:49:25: GET /api/order/all?year=2020&month=3 - 132ms
+2020-03-27 09:49:25:   --> GET /api/order/all?year=2020&month=3 200 136ms 2b
+2020-03-27 09:51:02: Listening on port 3001
+2020-03-27 09:51:06: 连接成功
+2020-03-27 09:51:29: Listening on port 3001
+2020-03-27 09:51:34: 连接成功
+2020-03-27 09:51:39:   <-- GET /
+2020-03-27 09:51:39:   --> GET / 200 14ms 2.28kb
+2020-03-27 09:51:39:   <-- GET /lib/echarts.min.js
+2020-03-27 09:51:39:   --> GET /lib/echarts.min.js 200 8ms 362.48kb
+2020-03-27 09:51:39:   <-- GET /static/js/main.625d9fe5.chunk.js
+2020-03-27 09:51:39:   <-- GET /static/css/main.5023b946.chunk.css
+2020-03-27 09:51:39:   <-- GET /static/css/2.42459785.chunk.css
+2020-03-27 09:51:39:   --> GET /static/js/main.625d9fe5.chunk.js 200 12ms 113.43kb
+2020-03-27 09:51:39:   --> GET /static/css/main.5023b946.chunk.css 200 10ms 23.41kb
+2020-03-27 09:51:39:   --> GET /static/css/2.42459785.chunk.css 200 12ms 416.01kb
+2020-03-27 09:51:39:   <-- GET /static/js/2.dc3ff322.chunk.js
+2020-03-27 09:51:39:   --> GET /static/js/2.dc3ff322.chunk.js 200 21ms 1.63mb
+2020-03-27 09:51:40:   <-- GET /assets/login.svg
+2020-03-27 09:51:40:   <-- GET /assets/logo.svg
+2020-03-27 09:51:40:   --> GET /assets/login.svg 200 4ms 8.72kb
+2020-03-27 09:51:40:   --> GET /assets/logo.svg 200 4ms 2.46kb
+2020-03-27 09:51:40:   <-- GET /favicon.png
+2020-03-27 09:51:40:   --> GET /favicon.png 200 3ms 3.13kb
+2020-03-27 09:51:43:   <-- GET /static/css/2.42459785.chunk.css
+2020-03-27 09:51:43:   --> GET /static/css/2.42459785.chunk.css 200 9ms 416.01kb
+2020-03-27 09:51:43:   <-- GET /static/css/main.5023b946.chunk.css
+2020-03-27 09:51:43:   --> GET /static/css/main.5023b946.chunk.css 200 3ms 23.41kb
+2020-03-27 09:51:43:   <-- GET /static/js/main.625d9fe5.chunk.js.map
+2020-03-27 09:51:43:   <-- GET /static/js/2.dc3ff322.chunk.js.map
+2020-03-27 09:51:43:   --> GET /static/js/main.625d9fe5.chunk.js.map 200 7ms 283.48kb
+2020-03-27 09:51:43:   --> GET /static/js/2.dc3ff322.chunk.js.map 200 115ms 5.16mb
+2020-03-27 09:51:43:   <-- GET /static/css/main.5023b946.chunk.css.map
+2020-03-27 09:51:43:   <-- GET /static/css/2.42459785.chunk.css.map
+2020-03-27 09:51:43:   --> GET /static/css/main.5023b946.chunk.css.map 200 3ms 16.86kb
+2020-03-27 09:51:43:   --> GET /static/css/2.42459785.chunk.css.map 200 5ms 138.72kb
+2020-03-27 09:52:29:   <-- GET /api/stats?year=2020&&month=3&&day=27
+2020-03-27 09:52:29:   <-- GET /api/salesData?year=2020&&month=1
+2020-03-27 09:52:29:   <-- GET /api/salesData?year=2020&&month=3&&day=1
+2020-03-27 09:52:29:   <-- GET /api/salesData?year=2020&&month=3&&day=27
+2020-03-27 09:52:29:   <-- GET /api/product/
+2020-03-27 09:52:29:   <-- GET /api/alipay
+2020-03-27 09:52:29: GET /api/stats?year=2020&&month=3&&day=27 - 150ms
+2020-03-27 09:52:29:   --> GET /api/stats?year=2020&&month=3&&day=27 200 159ms 169b
+2020-03-27 09:52:29:   <-- GET /api/wechatPay
+2020-03-27 09:52:30: GET /api/salesData?year=2020&&month=1 - 1066ms
+2020-03-27 09:52:30:   --> GET /api/salesData?year=2020&&month=1 200 1,069ms 2b
+2020-03-27 09:52:30: GET /api/salesData?year=2020&&month=3&&day=1 - 1061ms
+2020-03-27 09:52:30:   --> GET /api/salesData?year=2020&&month=3&&day=1 200 1,062ms 2b
+2020-03-27 09:52:30:   <-- GET /api/paypal
+2020-03-27 09:52:30:   <-- GET /api/email
+2020-03-27 09:52:31: GET /api/product/ - 1970ms
+2020-03-27 09:52:31:   --> GET /api/product/ 200 1,972ms 844b
+2020-03-27 09:52:31: GET /api/salesData?year=2020&&month=3&&day=27 - 1981ms
+2020-03-27 09:52:31:   --> GET /api/salesData?year=2020&&month=3&&day=27 200 1,983ms 2b
+2020-03-27 09:52:31: GET /api/alipay - 1943ms
+2020-03-27 09:52:31:   --> GET /api/alipay 200 1,945ms 2.09kb
+2020-03-27 09:52:31:   <-- GET /api/user
+2020-03-27 09:52:31:   <-- GET /api/setting/
+2020-03-27 09:52:31:   <-- GET /api/stats?number=-14
+2020-03-27 09:52:32: GET /api/paypal - 1814ms
+2020-03-27 09:52:32:   --> GET /api/paypal 200 1,819ms 127b
+2020-03-27 09:52:32: GET /api/wechatPay - 2763ms
+2020-03-27 09:52:32:   --> GET /api/wechatPay 200 2,765ms 132b
+2020-03-27 09:52:32: GET /api/email - 1820ms
+2020-03-27 09:52:32: GET /api/user - 902ms
+2020-03-27 09:52:32:   --> GET /api/email 200 1,824ms 214b
+2020-03-27 09:52:32:   --> GET /api/user 200 905ms 81b
+2020-03-27 09:52:32:   <-- GET /api/salesData?year=2020&&month=2
+2020-03-27 09:52:32:   <-- GET /api/salesData?year=2020&&month=3&&day=2
+2020-03-27 09:52:32:   <-- GET /api/salesData?number=-4
+2020-03-27 09:52:33: GET /api/salesData?number=-4 - 893ms
+2020-03-27 09:52:33:   --> GET /api/salesData?number=-4 200 895ms 2b
+2020-03-27 09:52:33: GET /api/salesData?year=2020&&month=2 - 903ms
+2020-03-27 09:52:33:   --> GET /api/salesData?year=2020&&month=2 200 904ms 2b
+2020-03-27 09:52:33: GET /api/salesData?year=2020&&month=3&&day=2 - 900ms
+2020-03-27 09:52:33:   --> GET /api/salesData?year=2020&&month=3&&day=2 200 902ms 2b
+2020-03-27 09:52:33: GET /api/setting/ - 1805ms
+2020-03-27 09:52:33:   --> GET /api/setting/ 200 1,809ms 70b
+2020-03-27 09:52:33: GET /api/stats?number=-14 - 1733ms
+2020-03-27 09:52:33:   --> GET /api/stats?number=-14 200 1,734ms 2b
+2020-03-27 09:52:33:   <-- GET /api/salesData?number=-3
+2020-03-27 09:52:33:   <-- GET /api/stats?number=-13
+2020-03-27 09:52:33:   <-- GET /api/salesData?year=2020&&month=3
+2020-03-27 09:52:33:   <-- GET /api/salesData?year=2020&&month=3&&day=3
+2020-03-27 09:52:33: GET /api/salesData?number=-3 - 130ms
+2020-03-27 09:52:33:   --> GET /api/salesData?number=-3 200 132ms 2b
+2020-03-27 09:52:33: GET /api/stats?number=-13 - 131ms
+2020-03-27 09:52:33:   --> GET /api/stats?number=-13 200 134ms 2b
+2020-03-27 09:52:33: GET /api/salesData?year=2020&&month=3 - 132ms
+2020-03-27 09:52:33:   --> GET /api/salesData?year=2020&&month=3 200 136ms 138b
+2020-03-27 09:52:33: GET /api/salesData?year=2020&&month=3&&day=3 - 131ms
+2020-03-27 09:52:33:   --> GET /api/salesData?year=2020&&month=3&&day=3 200 133ms 2b
+2020-03-27 09:52:33:   <-- GET /api/salesData?number=-2
+2020-03-27 09:52:33:   <-- GET /api/stats?number=-12
+2020-03-27 09:52:33:   <-- GET /api/salesData?year=2020&&month=4
+2020-03-27 09:52:33:   <-- GET /api/salesData?year=2020&&month=3&&day=4
+2020-03-27 09:52:33: GET /api/salesData?number=-2 - 130ms
+2020-03-27 09:52:33:   --> GET /api/salesData?number=-2 200 131ms 2b
+2020-03-27 09:52:33:   <-- GET /api/salesData?number=-1
+2020-03-27 09:52:33: GET /api/salesData?year=2020&&month=4 - 128ms
+2020-03-27 09:52:33:   --> GET /api/salesData?year=2020&&month=4 200 132ms 2b
+2020-03-27 09:52:33: GET /api/stats?number=-12 - 132ms
+2020-03-27 09:52:33:   --> GET /api/stats?number=-12 200 137ms 2b
+2020-03-27 09:52:33: GET /api/salesData?year=2020&&month=3&&day=4 - 128ms
+2020-03-27 09:52:33:   --> GET /api/salesData?year=2020&&month=3&&day=4 200 131ms 2b
+2020-03-27 09:52:33:   <-- GET /api/salesData?year=2020&&month=5
+2020-03-27 09:52:33:   <-- GET /api/salesData?year=2020&&month=3&&day=5
+2020-03-27 09:52:33:   <-- GET /api/stats?number=-11
+2020-03-27 09:52:34: GET /api/salesData?number=-1 - 141ms
+2020-03-27 09:52:34:   --> GET /api/salesData?number=-1 200 143ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?number=0
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=5 - 131ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=5 200 134ms 2b
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=3&&day=5 - 134ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=3&&day=5 200 136ms 2b
+2020-03-27 09:52:34: GET /api/stats?number=-11 - 142ms
+2020-03-27 09:52:34:   --> GET /api/stats?number=-11 200 144ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=6
+2020-03-27 09:52:34: GET /api/salesData?number=0 - 135ms
+2020-03-27 09:52:34:   --> GET /api/salesData?number=0 200 138ms 138b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=3&&day=6
+2020-03-27 09:52:34:   <-- GET /api/stats?number=-10
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=6 - 130ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=6 200 133ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=7
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=3&&day=6 - 130ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=3&&day=6 200 132ms 2b
+2020-03-27 09:52:34: GET /api/stats?number=-10 - 129ms
+2020-03-27 09:52:34:   --> GET /api/stats?number=-10 200 131ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=3&&day=7
+2020-03-27 09:52:34:   <-- GET /api/stats?number=-9
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=7 - 132ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=7 200 134ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=8
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=3&&day=7 - 133ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=3&&day=7 200 134ms 2b
+2020-03-27 09:52:34: GET /api/stats?number=-9 - 131ms
+2020-03-27 09:52:34:   --> GET /api/stats?number=-9 200 132ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=3&&day=8
+2020-03-27 09:52:34:   <-- GET /api/stats?number=-8
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=8 - 134ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=8 200 135ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=9
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=3&&day=8 - 128ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=3&&day=8 200 130ms 2b
+2020-03-27 09:52:34: GET /api/stats?number=-8 - 132ms
+2020-03-27 09:52:34:   --> GET /api/stats?number=-8 200 134ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=3&&day=9
+2020-03-27 09:52:34:   <-- GET /api/stats?number=-7
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=9 - 130ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=9 200 132ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=10
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=3&&day=9 - 138ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=3&&day=9 200 140ms 2b
+2020-03-27 09:52:34: GET /api/stats?number=-7 - 137ms
+2020-03-27 09:52:34:   --> GET /api/stats?number=-7 200 138ms 2b
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=3&&day=10
+2020-03-27 09:52:34: GET /api/salesData?year=2020&&month=10 - 131ms
+2020-03-27 09:52:34:   --> GET /api/salesData?year=2020&&month=10 200 132ms 2b
+2020-03-27 09:52:34:   <-- GET /api/stats?number=-6
+2020-03-27 09:52:34:   <-- GET /api/salesData?year=2020&&month=11
+2020-03-27 09:52:35: GET /api/salesData?year=2020&&month=3&&day=10 - 135ms
+2020-03-27 09:52:35:   --> GET /api/salesData?year=2020&&month=3&&day=10 200 137ms 2b
+2020-03-27 09:52:35:   <-- GET /api/salesData?year=2020&&month=3&&day=11
+2020-03-27 09:52:35: GET /api/stats?number=-6 - 141ms
+2020-03-27 09:52:35:   --> GET /api/stats?number=-6 200 144ms 2b
+2020-03-27 09:52:35: GET /api/salesData?year=2020&&month=11 - 137ms
+2020-03-27 09:52:35:   --> GET /api/salesData?year=2020&&month=11 200 140ms 2b
+2020-03-27 09:52:35: GET /api/salesData?year=2020&&month=3&&day=11 - 129ms
+2020-03-27 09:52:35:   --> GET /api/salesData?year=2020&&month=3&&day=11 200 131ms 2b
+2020-03-27 09:52:35:   <-- GET /api/stats?number=-5
+2020-03-27 09:52:35: GET /api/stats?number=-5 - 133ms
+2020-03-27 09:52:35:   --> GET /api/stats?number=-5 200 134ms 2b
+2020-03-27 09:52:35:   <-- GET /api/salesData?year=2020&&month=3&&day=12
+2020-03-27 09:52:35:   <-- GET /api/salesData?year=2020&&month=12
+2020-03-27 09:52:35:   <-- GET /api/stats?number=-4
+2020-03-27 09:52:35: GET /api/salesData?year=2020&&month=12 - 129ms
+2020-03-27 09:52:35:   --> GET /api/salesData?year=2020&&month=12 200 133ms 2b
+2020-03-27 09:52:35: GET /api/salesData?year=2020&&month=3&&day=12 - 132ms
+2020-03-27 09:52:35:   --> GET /api/salesData?year=2020&&month=3&&day=12 200 136ms 2b
+2020-03-27 09:52:35:   <-- GET /api/salesData?year=2020&&month=3&&day=13
+2020-03-27 09:52:35: GET /api/stats?number=-4 - 134ms
+2020-03-27 09:52:35:   --> GET /api/stats?number=-4 200 136ms 2b
+2020-03-27 09:52:35:   <-- GET /api/stats?number=-3
+2020-03-27 09:52:35: GET /api/salesData?year=2020&&month=3&&day=13 - 140ms
+2020-03-27 09:52:35:   --> GET /api/salesData?year=2020&&month=3&&day=13 200 141ms 2b
+2020-03-27 09:52:35:   <-- GET /api/salesData?year=2020&&month=3&&day=14
+2020-03-27 09:52:35: GET /api/stats?number=-3 - 131ms
+2020-03-27 09:52:35:   --> GET /api/stats?number=-3 200 133ms 2b
+2020-03-27 09:52:36: GET /api/salesData?year=2020&&month=3&&day=14 - 130ms
+2020-03-27 09:52:36:   --> GET /api/salesData?year=2020&&month=3&&day=14 200 132ms 2b
+2020-03-27 09:52:36:   <-- GET /api/stats?number=-2
+2020-03-27 09:52:36:   <-- GET /api/salesData?year=2020&&month=3&&day=15
+2020-03-27 09:52:36: GET /api/stats?number=-2 - 138ms
+2020-03-27 09:52:36:   --> GET /api/stats?number=-2 200 141ms 2b
+2020-03-27 09:52:36: GET /api/salesData?year=2020&&month=3&&day=15 - 132ms
+2020-03-27 09:52:36:   --> GET /api/salesData?year=2020&&month=3&&day=15 200 134ms 2b
+2020-03-27 09:52:36:   <-- GET /api/stats?number=-1
+2020-03-27 09:52:36:   <-- GET /api/salesData?year=2020&&month=3&&day=16
+2020-03-27 09:52:36: GET /api/stats?number=-1 - 132ms
+2020-03-27 09:52:36:   --> GET /api/stats?number=-1 200 134ms 2b
+2020-03-27 09:52:36: GET /api/salesData?year=2020&&month=3&&day=16 - 130ms
+2020-03-27 09:52:36:   --> GET /api/salesData?year=2020&&month=3&&day=16 200 132ms 2b
+2020-03-27 09:52:36:   <-- GET /api/stats?number=0
+2020-03-27 09:52:36:   <-- GET /api/salesData?year=2020&&month=3&&day=17
+2020-03-27 09:52:36: GET /api/stats?number=0 - 132ms
+2020-03-27 09:52:36:   --> GET /api/stats?number=0 200 135ms 505b
+2020-03-27 09:52:36: GET /api/salesData?year=2020&&month=3&&day=17 - 131ms
+2020-03-27 09:52:36:   --> GET /api/salesData?year=2020&&month=3&&day=17 200 133ms 2b
+2020-03-27 09:52:36:   <-- GET /api/salesData?year=2020&&month=3&&day=18
+2020-03-27 09:52:36: GET /api/salesData?year=2020&&month=3&&day=18 - 127ms
+2020-03-27 09:52:36:   --> GET /api/salesData?year=2020&&month=3&&day=18 200 129ms 2b
+2020-03-27 09:52:36:   <-- GET /api/salesData?year=2020&&month=3&&day=19
+2020-03-27 09:52:37: GET /api/salesData?year=2020&&month=3&&day=19 - 131ms
+2020-03-27 09:52:37:   --> GET /api/salesData?year=2020&&month=3&&day=19 200 133ms 2b
+2020-03-27 09:52:37:   <-- GET /api/salesData?year=2020&&month=3&&day=20
+2020-03-27 09:52:37: GET /api/salesData?year=2020&&month=3&&day=20 - 129ms
+2020-03-27 09:52:37:   --> GET /api/salesData?year=2020&&month=3&&day=20 200 131ms 2b
+2020-03-27 09:52:37:   <-- GET /api/salesData?year=2020&&month=3&&day=21
+2020-03-27 09:52:37: GET /api/salesData?year=2020&&month=3&&day=21 - 131ms
+2020-03-27 09:52:37:   --> GET /api/salesData?year=2020&&month=3&&day=21 200 133ms 2b
+2020-03-27 09:52:37:   <-- GET /api/salesData?year=2020&&month=3&&day=22
+2020-03-27 09:52:37: GET /api/salesData?year=2020&&month=3&&day=22 - 135ms
+2020-03-27 09:52:37:   --> GET /api/salesData?year=2020&&month=3&&day=22 200 137ms 2b
+2020-03-27 09:52:37:   <-- GET /api/salesData?year=2020&&month=3&&day=23
+2020-03-27 09:52:37: GET /api/salesData?year=2020&&month=3&&day=23 - 129ms
+2020-03-27 09:52:37:   --> GET /api/salesData?year=2020&&month=3&&day=23 200 131ms 2b
+2020-03-27 09:52:37:   <-- GET /api/salesData?year=2020&&month=3&&day=24
+2020-03-27 09:52:37: GET /api/salesData?year=2020&&month=3&&day=24 - 130ms
+2020-03-27 09:52:37:   --> GET /api/salesData?year=2020&&month=3&&day=24 200 131ms 2b
+2020-03-27 09:52:37:   <-- GET /api/salesData?year=2020&&month=3&&day=25
+2020-03-27 09:52:38: GET /api/salesData?year=2020&&month=3&&day=25 - 134ms
+2020-03-27 09:52:38:   --> GET /api/salesData?year=2020&&month=3&&day=25 200 136ms 138b
+2020-03-27 09:52:38:   <-- GET /api/salesData?year=2020&&month=3&&day=26
+2020-03-27 09:52:38: GET /api/salesData?year=2020&&month=3&&day=26 - 132ms
+2020-03-27 09:52:38:   --> GET /api/salesData?year=2020&&month=3&&day=26 200 133ms 2b
+2020-03-27 09:52:38:   <-- GET /api/salesData?year=2020&&month=3&&day=27
+2020-03-27 09:52:38: GET /api/salesData?year=2020&&month=3&&day=27 - 135ms
+2020-03-27 09:52:38:   --> GET /api/salesData?year=2020&&month=3&&day=27 200 136ms 2b
+2020-03-27 09:52:38:   <-- GET /api/salesData?year=2020&&month=3&&day=28
+2020-03-27 09:52:38: GET /api/salesData?year=2020&&month=3&&day=28 - 130ms
+2020-03-27 09:52:38:   --> GET /api/salesData?year=2020&&month=3&&day=28 200 131ms 2b
+2020-03-27 09:52:38:   <-- GET /api/salesData?year=2020&&month=3&&day=29
+2020-03-27 09:52:38: GET /api/salesData?year=2020&&month=3&&day=29 - 129ms
+2020-03-27 09:52:38:   --> GET /api/salesData?year=2020&&month=3&&day=29 200 131ms 2b
+2020-03-27 09:52:38:   <-- GET /api/salesData?year=2020&&month=3&&day=30
+2020-03-27 09:52:38: GET /api/salesData?year=2020&&month=3&&day=30 - 130ms
+2020-03-27 09:52:38:   --> GET /api/salesData?year=2020&&month=3&&day=30 200 131ms 2b
+2020-03-27 09:52:38:   <-- GET /api/salesData?year=2020&&month=3&&day=31
+2020-03-27 09:52:38: GET /api/salesData?year=2020&&month=3&&day=31 - 131ms
+2020-03-27 09:52:38:   --> GET /api/salesData?year=2020&&month=3&&day=31 200 132ms 2b
+2020-03-27 09:52:39:   <-- GET /api/order/all?year=2020&month=3
+2020-03-27 09:52:39: GET /api/order/all?year=2020&month=3 - 134ms
+2020-03-27 09:52:39:   --> GET /api/order/all?year=2020&month=3 200 135ms 2b
+2020-03-27 09:54:08: Listening on port 3001
+2020-03-27 09:54:09: 连接成功
+2020-03-27 09:54:11:   <-- GET /
+2020-03-27 09:54:11:   --> GET / 200 21ms 2.28kb
+2020-03-27 09:54:11:   <-- GET /static/css/2.42459785.chunk.css
+2020-03-27 09:54:11:   --> GET /static/css/2.42459785.chunk.css 200 9ms 416.01kb
+2020-03-27 09:54:11:   <-- GET /static/css/main.5023b946.chunk.css
+2020-03-27 09:54:11:   --> GET /static/css/main.5023b946.chunk.css 200 3ms 23.41kb
+2020-03-27 09:54:11:   <-- GET /lib/echarts.min.js
+2020-03-27 09:54:11:   --> GET /lib/echarts.min.js 200 13ms 362.48kb
+2020-03-27 09:54:11:   <-- GET /static/js/main.07657350.chunk.js
+2020-03-27 09:54:11:   --> GET /static/js/main.07657350.chunk.js 200 4ms 113.43kb
+2020-03-27 09:54:11:   <-- GET /static/js/2.dc3ff322.chunk.js
+2020-03-27 09:54:11:   --> GET /static/js/2.dc3ff322.chunk.js 200 13ms 1.63mb
+2020-03-27 09:54:12:   <-- GET /static/css/main.5023b946.chunk.css.map
+2020-03-27 09:54:12:   <-- GET /static/css/2.42459785.chunk.css.map
+2020-03-27 09:54:12:   --> GET /static/css/main.5023b946.chunk.css.map 200 6ms 16.86kb
+2020-03-27 09:54:12:   --> GET /static/css/2.42459785.chunk.css.map 200 5ms 138.72kb
+2020-03-27 09:54:12:   <-- GET /static/js/main.07657350.chunk.js.map
+2020-03-27 09:54:12:   <-- GET /static/js/2.dc3ff322.chunk.js.map
+2020-03-27 09:54:12:   --> GET /static/js/main.07657350.chunk.js.map 200 25ms 283.48kb
+2020-03-27 09:54:12:   --> GET /static/js/2.dc3ff322.chunk.js.map 200 209ms 5.16mb
+2020-03-27 09:54:12:   <-- GET /assets/login.svg
+2020-03-27 09:54:12:   --> GET /assets/login.svg 200 14ms 8.72kb
+2020-03-27 09:54:12:   <-- GET /assets/logo.svg
+2020-03-27 09:54:12:   --> GET /assets/logo.svg 200 10ms 2.46kb
+2020-03-27 09:54:13:   <-- GET /favicon.png
+2020-03-27 09:54:13:   --> GET /favicon.png 200 4ms 3.13kb
+2020-03-27 09:54:16:   <-- POST /api/user/login
+2020-03-27 09:54:16: POST /api/user/login - 358ms
+2020-03-27 09:54:16:   --> POST /api/user/login 200 376ms 209b
+2020-03-27 09:54:16:   <-- GET /assets/login_mask.jpg
+2020-03-27 09:54:16:   --> GET /assets/login_mask.jpg 200 35ms 153.73kb
+2020-03-27 09:54:16:   <-- GET /api/stats?year=2020&&month=3&&day=27
+2020-03-27 09:54:16:   <-- GET /api/wechatPay
+2020-03-27 09:54:16:   <-- GET /api/email
+2020-03-27 09:54:16:   <-- GET /api/salesData?year=2020&&month=3&&day=27
+2020-03-27 09:54:16:   <-- GET /api/setting/
+2020-03-27 09:54:16:   <-- GET /api/product/
+2020-03-27 09:54:16: GET /api/stats?year=2020&&month=3&&day=27 - 128ms
+2020-03-27 09:54:16:   --> GET /api/stats?year=2020&&month=3&&day=27 200 138ms 169b
+2020-03-27 09:54:16:   <-- GET /api/salesData?year=2020&&month=3&&day=1
+2020-03-27 09:54:17: GET /api/salesData?year=2020&&month=3&&day=27 - 1006ms
+2020-03-27 09:54:17:   --> GET /api/salesData?year=2020&&month=3&&day=27 200 1,018ms 2b
+2020-03-27 09:54:17: GET /api/wechatPay - 1015ms
+2020-03-27 09:54:17:   --> GET /api/wechatPay 200 1,026ms 132b
+2020-03-27 09:54:17:   <-- GET /api/salesData?year=2020&&month=1
+2020-03-27 09:54:17:   <-- GET /api/alipay
+2020-03-27 09:54:18: GET /api/product/ - 1935ms
+2020-03-27 09:54:18:   --> GET /api/product/ 200 1,941ms 844b
+2020-03-27 09:54:18: GET /api/setting/ - 1939ms
+2020-03-27 09:54:18:   --> GET /api/setting/ 200 1,953ms 70b
+2020-03-27 09:54:18: GET /api/email - 1943ms
+2020-03-27 09:54:18:   --> GET /api/email 200 1,957ms 214b
+2020-03-27 09:54:18:   <-- GET /api/paypal
+2020-03-27 09:54:18:   <-- GET /api/user
+2020-03-27 09:54:18:   <-- GET /api/stats?number=-14
+2020-03-27 09:54:19: GET /api/salesData?year=2020&&month=1 - 1752ms
+2020-03-27 09:54:19:   --> GET /api/salesData?year=2020&&month=1 200 1,760ms 2b
+2020-03-27 09:54:19: GET /api/alipay - 1751ms
+2020-03-27 09:54:19:   --> GET /api/alipay 200 1,759ms 2.09kb
+2020-03-27 09:54:19: GET /api/salesData?year=2020&&month=3&&day=1 - 2674ms
+2020-03-27 09:54:19:   --> GET /api/salesData?year=2020&&month=3&&day=1 200 2,677ms 2b
+2020-03-27 09:54:19:   <-- GET /api/salesData?number=-4
+2020-03-27 09:54:19:   <-- GET /api/salesData?year=2020&&month=2
+2020-03-27 09:54:19:   <-- GET /api/salesData?year=2020&&month=3&&day=2
+2020-03-27 09:54:20: GET /api/stats?number=-14 - 1704ms
+2020-03-27 09:54:20:   --> GET /api/stats?number=-14 200 1,706ms 2b
+2020-03-27 09:54:20: GET /api/paypal - 1717ms
+2020-03-27 09:54:20:   --> GET /api/paypal 200 1,722ms 127b
+2020-03-27 09:54:20: GET /api/salesData?year=2020&&month=3&&day=2 - 826ms
+2020-03-27 09:54:20:   --> GET /api/salesData?year=2020&&month=3&&day=2 200 828ms 2b
+2020-03-27 09:54:20: GET /api/user - 1713ms
+2020-03-27 09:54:20:   --> GET /api/user 200 1,717ms 81b
+2020-03-27 09:54:20: GET /api/salesData?year=2020&&month=2 - 837ms
+2020-03-27 09:54:20:   --> GET /api/salesData?year=2020&&month=2 200 841ms 2b
+2020-03-27 09:54:20: GET /api/salesData?number=-4 - 863ms
+2020-03-27 09:54:20:   --> GET /api/salesData?number=-4 200 867ms 2b
+2020-03-27 09:54:20:   <-- GET /api/stats?number=-13
+2020-03-27 09:54:20:   <-- GET /api/salesData?year=2020&&month=3&&day=3
+2020-03-27 09:54:20:   <-- GET /api/salesData?year=2020&&month=3
+2020-03-27 09:54:20:   <-- GET /api/salesData?number=-3
+2020-03-27 09:54:20: GET /api/salesData?year=2020&&month=3&&day=3 - 122ms
+2020-03-27 09:54:20:   --> GET /api/salesData?year=2020&&month=3&&day=3 200 127ms 2b
+2020-03-27 09:54:20: GET /api/stats?number=-13 - 126ms
+2020-03-27 09:54:20:   --> GET /api/stats?number=-13 200 128ms 2b
+2020-03-27 09:54:20: GET /api/salesData?number=-3 - 122ms
+2020-03-27 09:54:20:   --> GET /api/salesData?number=-3 200 124ms 2b
+2020-03-27 09:54:20: GET /api/salesData?year=2020&&month=3 - 131ms
+2020-03-27 09:54:20:   --> GET /api/salesData?year=2020&&month=3 200 137ms 138b
+2020-03-27 09:54:20:   <-- GET /api/stats?number=-12
+2020-03-27 09:54:20:   <-- GET /api/salesData?year=2020&&month=3&&day=4
+2020-03-27 09:54:20:   <-- GET /api/salesData?number=-2
+2020-03-27 09:54:20:   <-- GET /api/salesData?year=2020&&month=4
+2020-03-27 09:54:20: GET /api/stats?number=-12 - 125ms
+2020-03-27 09:54:20:   --> GET /api/stats?number=-12 200 129ms 2b
+2020-03-27 09:54:20: GET /api/salesData?year=2020&&month=3&&day=4 - 125ms
+2020-03-27 09:54:20:   --> GET /api/salesData?year=2020&&month=3&&day=4 200 131ms 2b
+2020-03-27 09:54:20: GET /api/salesData?number=-2 - 127ms
+2020-03-27 09:54:20:   --> GET /api/salesData?number=-2 200 132ms 2b
+2020-03-27 09:54:20: GET /api/salesData?year=2020&&month=4 - 131ms
+2020-03-27 09:54:20:   --> GET /api/salesData?year=2020&&month=4 200 134ms 2b
+2020-03-27 09:54:20:   <-- GET /api/stats?number=-11
+2020-03-27 09:54:20:   <-- GET /api/salesData?year=2020&&month=3&&day=5
+2020-03-27 09:54:20:   <-- GET /api/salesData?number=-1
+2020-03-27 09:54:20:   <-- GET /api/salesData?year=2020&&month=5
+2020-03-27 09:54:21: GET /api/stats?number=-11 - 123ms
+2020-03-27 09:54:21:   --> GET /api/stats?number=-11 200 128ms 2b
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=3&&day=5 - 124ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=3&&day=5 200 129ms 2b
+2020-03-27 09:54:21: GET /api/salesData?number=-1 - 124ms
+2020-03-27 09:54:21:   --> GET /api/salesData?number=-1 200 127ms 2b
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=5 - 133ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=5 200 137ms 2b
+2020-03-27 09:54:21:   <-- GET /api/stats?number=-10
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=6
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=3&&day=6
+2020-03-27 09:54:21:   <-- GET /api/salesData?number=0
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=3&&day=6 - 121ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=3&&day=6 200 123ms 2b
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=6 - 124ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=6 200 127ms 2b
+2020-03-27 09:54:21: GET /api/salesData?number=0 - 125ms
+2020-03-27 09:54:21:   --> GET /api/salesData?number=0 200 127ms 138b
+2020-03-27 09:54:21: GET /api/stats?number=-10 - 134ms
+2020-03-27 09:54:21:   --> GET /api/stats?number=-10 200 135ms 2b
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=3&&day=7
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=7
+2020-03-27 09:54:21:   <-- GET /api/stats?number=-9
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=3&&day=7 - 127ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=3&&day=7 200 130ms 2b
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=7 - 122ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=7 200 125ms 2b
+2020-03-27 09:54:21: GET /api/stats?number=-9 - 124ms
+2020-03-27 09:54:21:   --> GET /api/stats?number=-9 200 127ms 2b
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=3&&day=8
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=8
+2020-03-27 09:54:21:   <-- GET /api/stats?number=-8
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=3&&day=8 - 124ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=3&&day=8 200 127ms 2b
+2020-03-27 09:54:21: GET /api/stats?number=-8 - 123ms
+2020-03-27 09:54:21:   --> GET /api/stats?number=-8 200 127ms 2b
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=8 - 131ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=8 200 133ms 2b
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=3&&day=9
+2020-03-27 09:54:21:   <-- GET /api/stats?number=-7
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=9
+2020-03-27 09:54:21: GET /api/stats?number=-7 - 125ms
+2020-03-27 09:54:21:   --> GET /api/stats?number=-7 200 127ms 2b
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=3&&day=9 - 132ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=3&&day=9 200 134ms 2b
+2020-03-27 09:54:21:   <-- GET /api/stats?number=-6
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=9 - 123ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=9 200 125ms 2b
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=3&&day=10
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=10
+2020-03-27 09:54:21: GET /api/stats?number=-6 - 123ms
+2020-03-27 09:54:21:   --> GET /api/stats?number=-6 200 126ms 2b
+2020-03-27 09:54:21:   <-- GET /api/stats?number=-5
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=3&&day=10 - 126ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=3&&day=10 200 129ms 2b
+2020-03-27 09:54:21: GET /api/salesData?year=2020&&month=10 - 121ms
+2020-03-27 09:54:21:   --> GET /api/salesData?year=2020&&month=10 200 123ms 2b
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=3&&day=11
+2020-03-27 09:54:21:   <-- GET /api/salesData?year=2020&&month=11
+2020-03-27 09:54:22: GET /api/stats?number=-5 - 138ms
+2020-03-27 09:54:22:   --> GET /api/stats?number=-5 200 142ms 2b
+2020-03-27 09:54:22: GET /api/salesData?year=2020&&month=3&&day=11 - 124ms
+2020-03-27 09:54:22:   --> GET /api/salesData?year=2020&&month=3&&day=11 200 127ms 2b
+2020-03-27 09:54:22: GET /api/salesData?year=2020&&month=11 - 126ms
+2020-03-27 09:54:22:   --> GET /api/salesData?year=2020&&month=11 200 128ms 2b
+2020-03-27 09:54:22:   <-- GET /api/salesData?year=2020&&month=3&&day=12
+2020-03-27 09:54:22:   <-- GET /api/stats?number=-4
+2020-03-27 09:54:22:   <-- GET /api/salesData?year=2020&&month=12
+2020-03-27 09:54:22: GET /api/salesData?year=2020&&month=3&&day=12 - 123ms
+2020-03-27 09:54:22:   --> GET /api/salesData?year=2020&&month=3&&day=12 200 129ms 2b
+2020-03-27 09:54:22: GET /api/stats?number=-4 - 125ms
+2020-03-27 09:54:22:   --> GET /api/stats?number=-4 200 133ms 2b
+2020-03-27 09:54:22: GET /api/salesData?year=2020&&month=12 - 129ms
+2020-03-27 09:54:22:   --> GET /api/salesData?year=2020&&month=12 200 133ms 2b
+2020-03-27 09:54:22:   <-- GET /api/salesData?year=2020&&month=3&&day=13
+2020-03-27 09:54:22:   <-- GET /api/stats?number=-3
+2020-03-27 09:54:22: GET /api/salesData?year=2020&&month=3&&day=13 - 126ms
+2020-03-27 09:54:22:   --> GET /api/salesData?year=2020&&month=3&&day=13 200 129ms 2b
+2020-03-27 09:54:22: GET /api/stats?number=-3 - 123ms
+2020-03-27 09:54:22:   --> GET /api/stats?number=-3 200 126ms 2b
+2020-03-27 09:54:22:   <-- GET /api/stats?number=-2
+2020-03-27 09:54:22:   <-- GET /api/salesData?year=2020&&month=3&&day=14
+2020-03-27 09:54:22: GET /api/salesData?year=2020&&month=3&&day=14 - 139ms
+2020-03-27 09:54:22:   --> GET /api/salesData?year=2020&&month=3&&day=14 200 141ms 2b
+2020-03-27 09:54:22: GET /api/stats?number=-2 - 153ms
+2020-03-27 09:54:22:   --> GET /api/stats?number=-2 200 156ms 2b
+2020-03-27 09:54:22:   <-- GET /api/stats?number=-1
+2020-03-27 09:54:22:   <-- GET /api/salesData?year=2020&&month=3&&day=15
+2020-03-27 09:54:22: GET /api/stats?number=-1 - 123ms
+2020-03-27 09:54:22:   --> GET /api/stats?number=-1 200 127ms 2b
+2020-03-27 09:54:22: GET /api/salesData?year=2020&&month=3&&day=15 - 126ms
+2020-03-27 09:54:22:   --> GET /api/salesData?year=2020&&month=3&&day=15 200 131ms 2b
+2020-03-27 09:54:22:   <-- GET /api/stats?number=0
+2020-03-27 09:54:22:   <-- GET /api/salesData?year=2020&&month=3&&day=16
+2020-03-27 09:54:23: GET /api/salesData?year=2020&&month=3&&day=16 - 123ms
+2020-03-27 09:54:23:   --> GET /api/salesData?year=2020&&month=3&&day=16 200 129ms 2b
+2020-03-27 09:54:23: GET /api/stats?number=0 - 144ms
+2020-03-27 09:54:23:   --> GET /api/stats?number=0 200 156ms 505b
+2020-03-27 09:54:23:   <-- GET /api/salesData?year=2020&&month=3&&day=17
+2020-03-27 09:54:23: GET /api/salesData?year=2020&&month=3&&day=17 - 132ms
+2020-03-27 09:54:23:   --> GET /api/salesData?year=2020&&month=3&&day=17 200 137ms 2b
+2020-03-27 09:54:23:   <-- GET /api/salesData?year=2020&&month=3&&day=18
+2020-03-27 09:54:23: GET /api/salesData?year=2020&&month=3&&day=18 - 123ms
+2020-03-27 09:54:23:   --> GET /api/salesData?year=2020&&month=3&&day=18 200 129ms 2b
+2020-03-27 09:54:23:   <-- GET /api/salesData?year=2020&&month=3&&day=19
+2020-03-27 09:54:23: GET /api/salesData?year=2020&&month=3&&day=19 - 123ms
+2020-03-27 09:54:23:   --> GET /api/salesData?year=2020&&month=3&&day=19 200 128ms 2b
+2020-03-27 09:54:23:   <-- GET /api/salesData?year=2020&&month=3&&day=20
+2020-03-27 09:54:23: GET /api/salesData?year=2020&&month=3&&day=20 - 126ms
+2020-03-27 09:54:23:   --> GET /api/salesData?year=2020&&month=3&&day=20 200 130ms 2b
+2020-03-27 09:54:23:   <-- GET /api/salesData?year=2020&&month=3&&day=21
+2020-03-27 09:54:23: GET /api/salesData?year=2020&&month=3&&day=21 - 122ms
+2020-03-27 09:54:23:   --> GET /api/salesData?year=2020&&month=3&&day=21 200 125ms 2b
+2020-03-27 09:54:23:   <-- GET /api/salesData?year=2020&&month=3&&day=22
+2020-03-27 09:54:24: GET /api/salesData?year=2020&&month=3&&day=22 - 132ms
+2020-03-27 09:54:24:   --> GET /api/salesData?year=2020&&month=3&&day=22 200 134ms 2b
+2020-03-27 09:54:24:   <-- GET /api/salesData?year=2020&&month=3&&day=23
+2020-03-27 09:54:24: GET /api/salesData?year=2020&&month=3&&day=23 - 121ms
+2020-03-27 09:54:24:   --> GET /api/salesData?year=2020&&month=3&&day=23 200 124ms 2b
+2020-03-27 09:54:24:   <-- GET /api/salesData?year=2020&&month=3&&day=24
+2020-03-27 09:54:24: GET /api/salesData?year=2020&&month=3&&day=24 - 125ms
+2020-03-27 09:54:24:   --> GET /api/salesData?year=2020&&month=3&&day=24 200 131ms 2b
+2020-03-27 09:54:24:   <-- GET /api/salesData?year=2020&&month=3&&day=25
+2020-03-27 09:54:24: GET /api/salesData?year=2020&&month=3&&day=25 - 127ms
+2020-03-27 09:54:24:   --> GET /api/salesData?year=2020&&month=3&&day=25 200 132ms 138b
+2020-03-27 09:54:24:   <-- GET /api/salesData?year=2020&&month=3&&day=26
+2020-03-27 09:54:24: GET /api/salesData?year=2020&&month=3&&day=26 - 136ms
+2020-03-27 09:54:24:   --> GET /api/salesData?year=2020&&month=3&&day=26 200 140ms 2b
+2020-03-27 09:54:24:   <-- GET /api/salesData?year=2020&&month=3&&day=27
+2020-03-27 09:54:24: GET /api/salesData?year=2020&&month=3&&day=27 - 135ms
+2020-03-27 09:54:24:   --> GET /api/salesData?year=2020&&month=3&&day=27 200 137ms 2b
+2020-03-27 09:54:24:   <-- GET /api/salesData?year=2020&&month=3&&day=28
+2020-03-27 09:54:25: GET /api/salesData?year=2020&&month=3&&day=28 - 124ms
+2020-03-27 09:54:25:   --> GET /api/salesData?year=2020&&month=3&&day=28 200 127ms 2b
+2020-03-27 09:54:25:   <-- GET /api/salesData?year=2020&&month=3&&day=29
+2020-03-27 09:54:25: GET /api/salesData?year=2020&&month=3&&day=29 - 125ms
+2020-03-27 09:54:25:   --> GET /api/salesData?year=2020&&month=3&&day=29 200 130ms 2b
+2020-03-27 09:54:25:   <-- GET /api/salesData?year=2020&&month=3&&day=30
+2020-03-27 09:54:25: GET /api/salesData?year=2020&&month=3&&day=30 - 128ms
+2020-03-27 09:54:25:   --> GET /api/salesData?year=2020&&month=3&&day=30 200 133ms 2b
+2020-03-27 09:54:25:   <-- GET /api/salesData?year=2020&&month=3&&day=31
+2020-03-27 09:54:25: GET /api/salesData?year=2020&&month=3&&day=31 - 129ms
+2020-03-27 09:54:25:   --> GET /api/salesData?year=2020&&month=3&&day=31 200 134ms 2b
+2020-03-27 09:54:25:   <-- GET /api/order/all?year=2020&month=3
+2020-03-27 09:54:26: GET /api/order/all?year=2020&month=3 - 135ms
+2020-03-27 09:54:26:   --> GET /api/order/all?year=2020&month=3 200 139ms 2b
+2020-03-27 09:54:35:   <-- GET /api/order/all
+2020-03-27 09:54:35: GET /api/order/all - 129ms
+2020-03-27 09:54:35:   --> GET /api/order/all 200 131ms 2b
+2020-03-27 10:00:36: Listening on port 3001
+2020-03-27 10:00:42: 连接成功
+2020-03-27 10:11:21: Listening on port 3001
+2020-03-27 10:11:27: 连接成功
+2020-03-27 10:25:42: Listening on port 3001
+2020-03-27 10:25:47: 连接成功
+2020-03-27 10:25:56:   <-- GET /
+2020-03-27 10:25:56:   --> GET / 200 15ms 2.28kb
+2020-03-27 10:25:56:   <-- GET /lib/echarts.min.js
+2020-03-27 10:25:56:   <-- GET /static/css/2.42459785.chunk.css
+2020-03-27 10:25:56:   <-- GET /static/js/2.dc3ff322.chunk.js
+2020-03-27 10:25:56:   <-- GET /static/css/main.5023b946.chunk.css
+2020-03-27 10:25:56:   <-- GET /static/js/main.07657350.chunk.js
+2020-03-27 10:25:56:   --> GET /static/css/main.5023b946.chunk.css 200 11ms 23.41kb
+2020-03-27 10:25:56:   --> GET /lib/echarts.min.js 200 21ms 362.48kb
+2020-03-27 10:25:56:   --> GET /static/css/2.42459785.chunk.css 200 24ms 416.01kb
+2020-03-27 10:25:56:   --> GET /static/js/main.07657350.chunk.js 200 21ms 113.43kb
+2020-03-27 10:25:56:   --> GET /static/js/2.dc3ff322.chunk.js 200 49ms 1.63mb
+2020-03-27 10:25:57:   <-- GET /static/css/2.42459785.chunk.css.map
+2020-03-27 10:25:57:   <-- GET /static/css/main.5023b946.chunk.css.map
+2020-03-27 10:25:57:   --> GET /static/css/main.5023b946.chunk.css.map 200 3ms 16.86kb
+2020-03-27 10:25:57:   --> GET /static/css/2.42459785.chunk.css.map 200 6ms 138.72kb
+2020-03-27 10:25:57:   <-- GET /static/js/2.dc3ff322.chunk.js.map
+2020-03-27 10:25:57:   <-- GET /static/js/main.07657350.chunk.js.map
+2020-03-27 10:25:57:   --> GET /static/js/main.07657350.chunk.js.map 200 7ms 283.48kb
+2020-03-27 10:25:57:   --> GET /static/js/2.dc3ff322.chunk.js.map 200 50ms 5.16mb
+2020-03-27 10:25:57:   <-- GET /assets/login_mask.jpg
+2020-03-27 10:25:57:   <-- GET /assets/logo.svg
+2020-03-27 10:25:57:   <-- GET /api/stats?year=2020&&month=3&&day=27
+2020-03-27 10:25:57:   --> GET /assets/logo.svg 200 18ms 2.46kb
+2020-03-27 10:25:57:   --> GET /assets/login_mask.jpg 200 21ms 153.73kb
+2020-03-27 10:25:57:   <-- GET /api/salesData?year=2020&&month=1
+2020-03-27 10:25:57:   <-- GET /api/salesData?year=2020&&month=3&&day=1
+2020-03-27 10:25:57:   <-- GET /api/salesData?year=2020&&month=3&&day=27
+2020-03-27 10:25:57:   <-- GET /api/product/
+2020-03-27 10:25:57:   <-- GET /api/alipay
+2020-03-27 10:25:57: GET /api/stats?year=2020&&month=3&&day=27 - 147ms
+2020-03-27 10:25:57:   --> GET /api/stats?year=2020&&month=3&&day=27 200 158ms 169b
+2020-03-27 10:25:57:   <-- GET /api/wechatPay
+2020-03-27 10:25:58: GET /api/salesData?year=2020&&month=1 - 1075ms
+2020-03-27 10:25:58:   --> GET /api/salesData?year=2020&&month=1 200 1,079ms 2b
+2020-03-27 10:25:58:   <-- GET /api/paypal
+2020-03-27 10:25:59: GET /api/product/ - 1916ms
+2020-03-27 10:25:59:   --> GET /api/product/ 200 1,920ms 844b
+2020-03-27 10:25:59: GET /api/salesData?year=2020&&month=3&&day=27 - 1923ms
+2020-03-27 10:25:59:   --> GET /api/salesData?year=2020&&month=3&&day=27 200 1,925ms 2b
+2020-03-27 10:25:59: GET /api/salesData?year=2020&&month=3&&day=1 - 1929ms
+2020-03-27 10:25:59:   --> GET /api/salesData?year=2020&&month=3&&day=1 200 1,932ms 2b
+2020-03-27 10:25:59:   <-- GET /api/email
+2020-03-27 10:25:59:   <-- GET /api/user
+2020-03-27 10:25:59:   <-- GET /api/setting/
+2020-03-27 10:26:00: GET /api/email - 856ms
+2020-03-27 10:26:00: GET /api/paypal - 1653ms
+2020-03-27 10:26:00:   --> GET /api/email 200 861ms 214b
+2020-03-27 10:26:00:   --> GET /api/paypal 200 1,673ms 127b
+2020-03-27 10:26:00: GET /api/wechatPay - 2657ms
+2020-03-27 10:26:00: GET /api/alipay - 2790ms
+2020-03-27 10:26:00:   --> GET /api/wechatPay 200 2,664ms 132b
+2020-03-27 10:26:00:   --> GET /api/alipay 200 2,796ms 2.09kb
+2020-03-27 10:26:00:   <-- GET /api/stats?number=-14
+2020-03-27 10:26:00:   <-- GET /api/salesData?year=2020&&month=2
+2020-03-27 10:26:00:   <-- GET /api/salesData?number=-4
+2020-03-27 10:26:00:   <-- GET /api/salesData?year=2020&&month=3&&day=2
+2020-03-27 10:26:01: GET /api/salesData?year=2020&&month=2 - 872ms
+2020-03-27 10:26:01:   --> GET /api/salesData?year=2020&&month=2 200 878ms 2b
+2020-03-27 10:26:01: GET /api/setting/ - 1738ms
+2020-03-27 10:26:01:   --> GET /api/setting/ 200 1,748ms 70b
+2020-03-27 10:26:01: GET /api/salesData?year=2020&&month=3&&day=2 - 870ms
+2020-03-27 10:26:01:   --> GET /api/salesData?year=2020&&month=3&&day=2 200 873ms 2b
+2020-03-27 10:26:01: GET /api/user - 1744ms
+2020-03-27 10:26:01:   --> GET /api/user 200 1,760ms 81b
+2020-03-27 10:26:01: GET /api/stats?number=-14 - 896ms
+2020-03-27 10:26:01:   --> GET /api/stats?number=-14 200 901ms 2b
+2020-03-27 10:26:01: GET /api/salesData?number=-4 - 887ms
+2020-03-27 10:26:01:   --> GET /api/salesData?number=-4 200 892ms 2b
+2020-03-27 10:26:01:   <-- GET /api/salesData?year=2020&&month=3
+2020-03-27 10:26:01:   <-- GET /api/salesData?year=2020&&month=3&&day=3
+2020-03-27 10:26:01:   <-- GET /api/stats?number=-13
+2020-03-27 10:26:01:   <-- GET /api/salesData?number=-3
+2020-03-27 10:26:01: GET /api/salesData?year=2020&&month=3 - 121ms
+2020-03-27 10:26:01:   --> GET /api/salesData?year=2020&&month=3 200 127ms 138b
+2020-03-27 10:26:01: GET /api/salesData?year=2020&&month=3&&day=3 - 135ms
+2020-03-27 10:26:01:   --> GET /api/salesData?year=2020&&month=3&&day=3 200 140ms 2b
+2020-03-27 10:26:01:   <-- GET /api/salesData?year=2020&&month=4
+2020-03-27 10:26:01: GET /api/salesData?number=-3 - 130ms
+2020-03-27 10:26:01:   --> GET /api/salesData?number=-3 200 132ms 2b
+2020-03-27 10:26:01: GET /api/stats?number=-13 - 135ms
+2020-03-27 10:26:01:   --> GET /api/stats?number=-13 200 136ms 2b
+2020-03-27 10:26:01:   <-- GET /api/salesData?year=2020&&month=3&&day=4
+2020-03-27 10:26:01:   <-- GET /api/salesData?number=-2
+2020-03-27 10:26:01:   <-- GET /api/stats?number=-12
+2020-03-27 10:26:01: GET /api/salesData?year=2020&&month=4 - 130ms
+2020-03-27 10:26:01:   --> GET /api/salesData?year=2020&&month=4 200 135ms 2b
+2020-03-27 10:26:01: GET /api/salesData?year=2020&&month=3&&day=4 - 139ms
+2020-03-27 10:26:01:   --> GET /api/salesData?year=2020&&month=3&&day=4 200 141ms 2b
+2020-03-27 10:26:01:   <-- GET /api/salesData?year=2020&&month=5
+2020-03-27 10:26:01:   <-- GET /api/salesData?year=2020&&month=3&&day=5
+2020-03-27 10:26:02: GET /api/salesData?number=-2 - 119ms
+2020-03-27 10:26:02:   --> GET /api/salesData?number=-2 200 134ms 2b
+2020-03-27 10:26:02: GET /api/stats?number=-12 - 127ms
+2020-03-27 10:26:02:   --> GET /api/stats?number=-12 200 136ms 2b
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=5 - 130ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=5 200 134ms 2b
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=3&&day=5 - 125ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=3&&day=5 200 128ms 2b
+2020-03-27 10:26:02:   <-- GET /api/salesData?number=-1
+2020-03-27 10:26:02: GET /api/salesData?number=-1 - 131ms
+2020-03-27 10:26:02:   --> GET /api/salesData?number=-1 200 137ms 2b
+2020-03-27 10:26:02:   <-- GET /api/salesData?number=0
+2020-03-27 10:26:02:   <-- GET /api/salesData?year=2020&&month=6
+2020-03-27 10:26:02:   <-- GET /api/salesData?year=2020&&month=3&&day=6
+2020-03-27 10:26:02:   <-- GET /api/stats?number=-11
+2020-03-27 10:26:02: GET /api/salesData?number=0 - 137ms
+2020-03-27 10:26:02:   --> GET /api/salesData?number=0 200 140ms 138b
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=3&&day=6 - 131ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=3&&day=6 200 134ms 2b
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=6 - 137ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=6 200 139ms 2b
+2020-03-27 10:26:02: GET /api/stats?number=-11 - 134ms
+2020-03-27 10:26:02:   --> GET /api/stats?number=-11 200 138ms 2b
+2020-03-27 10:26:02:   <-- GET /api/salesData?year=2020&&month=3&&day=7
+2020-03-27 10:26:02:   <-- GET /api/salesData?year=2020&&month=7
+2020-03-27 10:26:02:   <-- GET /api/stats?number=-10
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=3&&day=7 - 128ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=3&&day=7 200 131ms 2b
+2020-03-27 10:26:02:   <-- GET /api/salesData?year=2020&&month=3&&day=8
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=7 - 145ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=7 200 148ms 2b
+2020-03-27 10:26:02: GET /api/stats?number=-10 - 143ms
+2020-03-27 10:26:02:   --> GET /api/stats?number=-10 200 145ms 2b
+2020-03-27 10:26:02:   <-- GET /api/stats?number=-9
+2020-03-27 10:26:02:   <-- GET /api/salesData?year=2020&&month=8
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=3&&day=8 - 122ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=3&&day=8 200 123ms 2b
+2020-03-27 10:26:02:   <-- GET /api/salesData?year=2020&&month=3&&day=9
+2020-03-27 10:26:02: GET /api/stats?number=-9 - 125ms
+2020-03-27 10:26:02:   --> GET /api/stats?number=-9 200 128ms 2b
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=8 - 130ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=8 200 133ms 2b
+2020-03-27 10:26:02:   <-- GET /api/stats?number=-8
+2020-03-27 10:26:02:   <-- GET /api/salesData?year=2020&&month=9
+2020-03-27 10:26:02: GET /api/salesData?year=2020&&month=3&&day=9 - 125ms
+2020-03-27 10:26:02:   --> GET /api/salesData?year=2020&&month=3&&day=9 200 127ms 2b
+2020-03-27 10:26:03:   <-- GET /api/salesData?year=2020&&month=3&&day=10
+2020-03-27 10:26:03: GET /api/stats?number=-8 - 124ms
+2020-03-27 10:26:03:   --> GET /api/stats?number=-8 200 127ms 2b
+2020-03-27 10:26:03: GET /api/salesData?year=2020&&month=9 - 131ms
+2020-03-27 10:26:03:   --> GET /api/salesData?year=2020&&month=9 200 135ms 2b
+2020-03-27 10:26:03:   <-- GET /api/stats?number=-7
+2020-03-27 10:26:03:   <-- GET /api/salesData?year=2020&&month=10
+2020-03-27 10:26:03: GET /api/salesData?year=2020&&month=3&&day=10 - 128ms
+2020-03-27 10:26:03:   --> GET /api/salesData?year=2020&&month=3&&day=10 200 129ms 2b
+2020-03-27 10:26:03:   <-- GET /api/salesData?year=2020&&month=3&&day=11
+2020-03-27 10:26:03: GET /api/stats?number=-7 - 139ms
+2020-03-27 10:26:03:   --> GET /api/stats?number=-7 200 148ms 2b
+2020-03-27 10:26:03: GET /api/salesData?year=2020&&month=10 - 137ms
+2020-03-27 10:26:03:   --> GET /api/salesData?year=2020&&month=10 200 140ms 2b
+2020-03-27 10:26:03:   <-- GET /api/stats?number=-6
+2020-03-27 10:26:03:   <-- GET /api/salesData?year=2020&&month=11
+2020-03-27 10:26:03: GET /api/stats?number=-6 - 132ms
+2020-03-27 10:26:03:   --> GET /api/stats?number=-6 200 136ms 2b
+2020-03-27 10:26:03: GET /api/salesData?year=2020&&month=11 - 135ms
+2020-03-27 10:26:03:   --> GET /api/salesData?year=2020&&month=11 200 139ms 2b
+2020-03-27 10:26:03:   <-- GET /api/stats?number=-5
+2020-03-27 10:26:03:   <-- GET /api/salesData?year=2020&&month=12
+2020-03-27 10:26:03: GET /api/salesData?year=2020&&month=3&&day=11 - 480ms
+2020-03-27 10:26:03:   --> GET /api/salesData?year=2020&&month=3&&day=11 200 482ms 2b
+2020-03-27 10:26:03: GET /api/stats?number=-5 - 131ms
+2020-03-27 10:26:03:   --> GET /api/stats?number=-5 200 136ms 2b
+2020-03-27 10:26:03:   <-- GET /api/salesData?year=2020&&month=3&&day=12
+2020-03-27 10:26:03: GET /api/salesData?year=2020&&month=12 - 134ms
+2020-03-27 10:26:03:   --> GET /api/salesData?year=2020&&month=12 200 137ms 2b
+2020-03-27 10:26:03:   <-- GET /api/stats?number=-4
+2020-03-27 10:26:03: GET /api/salesData?year=2020&&month=3&&day=12 - 137ms
+2020-03-27 10:26:03:   --> GET /api/salesData?year=2020&&month=3&&day=12 200 140ms 2b
+2020-03-27 10:26:03: GET /api/stats?number=-4 - 126ms
+2020-03-27 10:26:03:   --> GET /api/stats?number=-4 200 130ms 2b
+2020-03-27 10:26:03:   <-- GET /api/salesData?year=2020&&month=3&&day=13
+2020-03-27 10:26:03:   <-- GET /api/stats?number=-3
+2020-03-27 10:26:03: GET /api/salesData?year=2020&&month=3&&day=13 - 127ms
+2020-03-27 10:26:03:   --> GET /api/salesData?year=2020&&month=3&&day=13 200 131ms 2b
+2020-03-27 10:26:03: GET /api/stats?number=-3 - 131ms
+2020-03-27 10:26:03:   --> GET /api/stats?number=-3 200 136ms 2b
+2020-03-27 10:26:04:   <-- GET /api/salesData?year=2020&&month=3&&day=14
+2020-03-27 10:26:04:   <-- GET /api/stats?number=-2
+2020-03-27 10:26:04: GET /api/salesData?year=2020&&month=3&&day=14 - 144ms
+2020-03-27 10:26:04:   --> GET /api/salesData?year=2020&&month=3&&day=14 200 151ms 2b
+2020-03-27 10:26:04: GET /api/stats?number=-2 - 141ms
+2020-03-27 10:26:04:   --> GET /api/stats?number=-2 200 142ms 2b
+2020-03-27 10:26:04:   <-- GET /api/stats?number=-1
+2020-03-27 10:26:04:   <-- GET /api/salesData?year=2020&&month=3&&day=15
+2020-03-27 10:26:04: GET /api/salesData?year=2020&&month=3&&day=15 - 126ms
+2020-03-27 10:26:04:   --> GET /api/salesData?year=2020&&month=3&&day=15 200 130ms 2b
+2020-03-27 10:26:04: GET /api/stats?number=-1 - 132ms
+2020-03-27 10:26:04:   --> GET /api/stats?number=-1 200 136ms 2b
+2020-03-27 10:26:04:   <-- GET /api/salesData?year=2020&&month=3&&day=16
+2020-03-27 10:26:04:   <-- GET /api/stats?number=0
+2020-03-27 10:26:04: GET /api/salesData?year=2020&&month=3&&day=16 - 121ms
+2020-03-27 10:26:04:   --> GET /api/salesData?year=2020&&month=3&&day=16 200 125ms 2b
+2020-03-27 10:26:04:   <-- GET /api/salesData?year=2020&&month=3&&day=17
+2020-03-27 10:26:04: GET /api/stats?number=0 - 141ms
+2020-03-27 10:26:04:   --> GET /api/stats?number=0 200 144ms 505b
+2020-03-27 10:26:04: GET /api/salesData?year=2020&&month=3&&day=17 - 120ms
+2020-03-27 10:26:04:   --> GET /api/salesData?year=2020&&month=3&&day=17 200 123ms 2b
+2020-03-27 10:26:04:   <-- GET /api/salesData?year=2020&&month=3&&day=18
+2020-03-27 10:26:04: GET /api/salesData?year=2020&&month=3&&day=18 - 153ms
+2020-03-27 10:26:04:   --> GET /api/salesData?year=2020&&month=3&&day=18 200 154ms 2b
+2020-03-27 10:26:04:   <-- GET /api/salesData?year=2020&&month=3&&day=19
+2020-03-27 10:26:04: GET /api/salesData?year=2020&&month=3&&day=19 - 123ms
+2020-03-27 10:26:04:   --> GET /api/salesData?year=2020&&month=3&&day=19 200 128ms 2b
+2020-03-27 10:26:05:   <-- GET /api/salesData?year=2020&&month=3&&day=20
+2020-03-27 10:26:05: GET /api/salesData?year=2020&&month=3&&day=20 - 123ms
+2020-03-27 10:26:05:   --> GET /api/salesData?year=2020&&month=3&&day=20 200 126ms 2b
+2020-03-27 10:26:05:   <-- GET /api/salesData?year=2020&&month=3&&day=21
+2020-03-27 10:26:05: GET /api/salesData?year=2020&&month=3&&day=21 - 128ms
+2020-03-27 10:26:05:   --> GET /api/salesData?year=2020&&month=3&&day=21 200 132ms 2b
+2020-03-27 10:26:05:   <-- GET /api/salesData?year=2020&&month=3&&day=22
+2020-03-27 10:26:05: GET /api/salesData?year=2020&&month=3&&day=22 - 136ms
+2020-03-27 10:26:05:   --> GET /api/salesData?year=2020&&month=3&&day=22 200 140ms 2b
+2020-03-27 10:26:05:   <-- GET /api/salesData?year=2020&&month=3&&day=23
+2020-03-27 10:26:05: GET /api/salesData?year=2020&&month=3&&day=23 - 134ms
+2020-03-27 10:26:05:   --> GET /api/salesData?year=2020&&month=3&&day=23 200 138ms 2b
+2020-03-27 10:26:05:   <-- GET /api/salesData?year=2020&&month=3&&day=24
+2020-03-27 10:26:05: GET /api/salesData?year=2020&&month=3&&day=24 - 132ms
+2020-03-27 10:26:05:   --> GET /api/salesData?year=2020&&month=3&&day=24 200 136ms 2b
+2020-03-27 10:26:05:   <-- GET /api/salesData?year=2020&&month=3&&day=25
+2020-03-27 10:26:06: GET /api/salesData?year=2020&&month=3&&day=25 - 143ms
+2020-03-27 10:26:06:   --> GET /api/salesData?year=2020&&month=3&&day=25 200 146ms 138b
+2020-03-27 10:26:06:   <-- GET /api/salesData?year=2020&&month=3&&day=26
+2020-03-27 10:26:06: GET /api/salesData?year=2020&&month=3&&day=26 - 138ms
+2020-03-27 10:26:06:   --> GET /api/salesData?year=2020&&month=3&&day=26 200 141ms 2b
+2020-03-27 10:26:06:   <-- GET /api/salesData?year=2020&&month=3&&day=27
+2020-03-27 10:26:06: GET /api/salesData?year=2020&&month=3&&day=27 - 134ms
+2020-03-27 10:26:06:   --> GET /api/salesData?year=2020&&month=3&&day=27 200 139ms 2b
+2020-03-27 10:26:06:   <-- GET /api/salesData?year=2020&&month=3&&day=28
+2020-03-27 10:26:06: GET /api/salesData?year=2020&&month=3&&day=28 - 135ms
+2020-03-27 10:26:06:   --> GET /api/salesData?year=2020&&month=3&&day=28 200 138ms 2b
+2020-03-27 10:26:06:   <-- GET /api/salesData?year=2020&&month=3&&day=29
+2020-03-27 10:26:06: GET /api/salesData?year=2020&&month=3&&day=29 - 132ms
+2020-03-27 10:26:06:   --> GET /api/salesData?year=2020&&month=3&&day=29 200 137ms 2b
+2020-03-27 10:26:06:   <-- GET /api/salesData?year=2020&&month=3&&day=30
+2020-03-27 10:26:07: GET /api/salesData?year=2020&&month=3&&day=30 - 125ms
+2020-03-27 10:26:07:   --> GET /api/salesData?year=2020&&month=3&&day=30 200 130ms 2b
+2020-03-27 10:26:07:   <-- GET /api/salesData?year=2020&&month=3&&day=31
+2020-03-27 10:26:07: GET /api/salesData?year=2020&&month=3&&day=31 - 132ms
+2020-03-27 10:26:07:   --> GET /api/salesData?year=2020&&month=3&&day=31 200 136ms 2b
+2020-03-27 10:26:07:   <-- GET /api/order/all?year=2020&month=3
+2020-03-27 10:26:07: GET /api/order/all?year=2020&month=3 - 145ms
+2020-03-27 10:26:07:   --> GET /api/order/all?year=2020&month=3 200 147ms 2b

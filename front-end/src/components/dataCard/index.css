@@ -1,0 +1,162 @@
+.iconGroup span.anticon {
+  margin-left: 16px;
+  color: black;
+  cursor: pointer;
+  transition: color 0.32s;
+}
+
+.iconGroup span.anticon:hover {
+  color: black;
+}
+
+.rankingList {
+  margin: 25px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.rankingList li {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  zoom: 1;
+}
+
+.rankingList li::before,
+.rankingList li::after {
+  display: table;
+  content: " ";
+}
+
+.rankingList li::after {
+  clear: both;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+
+.rankingList li span {
+  /* color: black; */
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.rankingList li .rankingItemNumber {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: 1.5px;
+  margin-right: 16px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  background-color: rgba(75, 75, 75, 0.05);
+  border-radius: 20px;
+}
+
+.rankingList li .rankingItemNumber.active {
+  color: #fff;
+  background-color: #314659;
+}
+
+.rankingList li .rankingItemTitle {
+  flex: 1;
+  margin-right: 8px;
+  margin-left: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: black;
+}
+
+.salesExtra {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+.salesExtra a {
+  margin-left: 24px;
+  color: black;
+}
+
+.salesExtra a:hover {
+  color: #40a9ff;
+}
+
+.salesExtra a.currentDate {
+  color: #40a9ff;
+}
+
+.salesCard .salesBar {
+  padding: 0 0 32px 32px;
+}
+
+.salesCard .salesRank {
+  padding: 0 32px 32px 72px;
+}
+
+.salesCard :global .ant-tabs-bar {
+  padding-left: 16px;
+}
+
+.salesCard :global .ant-tabs-bar .ant-tabs-nav .ant-tabs-tab {
+  padding-top: 16px;
+  padding-bottom: 14px;
+  line-height: 24px;
+}
+
+.salesCard :global .ant-tabs-extra-content {
+  padding-right: 24px;
+  line-height: 55px;
+}
+
+.salesCard :global .ant-card-head {
+  position: relative;
+}
+
+.salesCard :global .ant-card-head-title {
+  align-items: normal;
+}
+
+.salesCardExtra {
+  height: inherit;
+}
+
+.salesTypeRadio {
+  position: absolute;
+  right: 54px;
+  bottom: 12px;
+}
+.ant-tabs-tab {
+  margin-left: 20px !important;
+  margin-right: 0px !important;
+}
+.ant-tabs-extra-content {
+  margin-right: 20px !important;
+}
+@media screen and (max-width: 1080px) {
+  .salesExtra {
+    display: none;
+  }
+  .rankingList li span:first-child {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .rankingTitle {
+    margin-top: 16px;
+  }
+  .salesCard .salesBar {
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .salesExtraWrap {
+    display: none;
+  }
+  .salesCard :global .ant-tabs-content {
+    padding-top: 30px;
+  }
+}

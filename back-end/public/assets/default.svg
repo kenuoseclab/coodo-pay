@@ -1,0 +1,50 @@
+<svg id="组_8" data-name="组 8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="824" viewBox="0 0 1280 824">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_74" data-name="矩形 74" width="1280" height="824" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="椭圆_4" x="316" y="-105" width="714" height="714" filterUnits="userSpaceOnUse">
+      <feOffset dx="-15" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="路径_254" x="858.58" y="354.59" width="511.42" height="562.158" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-2"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="矩形_73" x="31" y="639" width="442" height="215" filterUnits="userSpaceOnUse">
+      <feOffset dx="-20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="椭圆_6" x="-492" y="-456" width="804" height="804" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-4"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="矩形_75" data-name="矩形 75" width="1280" height="824" fill="#f7fbfe"/>
+  <g id="蒙版组_1" data-name="蒙版组 1" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#椭圆_4)">
+      <circle id="椭圆_4-2" data-name="椭圆 4" cx="312" cy="312" r="312" transform="translate(376 -75)" fill="#f8fcff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#路径_254)">
+      <path id="路径_254-2" data-name="路径 254" d="M7110,444.59,6778.58,773.776l52.972,52.972H7110Z" transform="translate(-5830)" fill="#f8fcff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#矩形_73)">
+      <rect id="矩形_73-2" data-name="矩形 73" width="382" height="155" transform="translate(81 669)" fill="#f8fcff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#椭圆_6)">
+      <circle id="椭圆_6-2" data-name="椭圆 6" cx="312" cy="312" r="312" transform="translate(-402 -366)" fill="#f8fcff"/>
+    </g>
+  </g>
+</svg>

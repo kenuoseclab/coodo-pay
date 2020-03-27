@@ -1,0 +1,56 @@
+.login-container {
+  background-color: #f0f2f5;
+  height: 100%;
+}
+.login-image {
+  width: 900px;
+  position: absolute;
+  left: calc(50% - 450px);
+  top: calc(50% - 200px);
+}
+.login-logo-text {
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  bottom: 13px;
+  margin-left: 20px;
+}
+.login-subtitle {
+  line-height: 30px;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.login-title-text {
+  color: #40a9ff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.login-form {
+  width: 350px;
+  margin-top: 20px;
+}
+.login-input {
+  outline: none;
+  height: 40px;
+}
+.anticon-user,
+.anticon-lock {
+  color: #40a9ff;
+  font-size: 17px;
+  margin: 7px 7px 0 0 !important;
+}
+.anticon-eye-invisible,
+.ant-input-password-icon {
+  font-size: 17px;
+  line-height: 10px;
+  position: relative;
+  bottom: 2px;
+  left: 4px;
+}
+.ant-input-suffix {
+  width: 20px !important;
+  height: 30px !important;
+}

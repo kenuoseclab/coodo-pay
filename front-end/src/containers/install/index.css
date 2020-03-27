@@ -1,0 +1,60 @@
+.welcome-bg {
+  position: absolute;
+
+  width: 100%;
+  z-index: -1;
+}
+.welcome-title {
+  font-size: 66px;
+  color: white;
+  /* margin-top: 50px; */
+  line-height: 350px;
+  font-weight: 500;
+}
+.welcome-subtitle {
+  font-size: 20px;
+  color: white;
+  position: relative;
+  bottom: 130px;
+  opacity: 0.6;
+}
+.welcome-info {
+  color: white;
+  font-size: 18px;
+  /* width: 500px; */
+  text-align: center;
+  line-height: 25px;
+  position: relative;
+  bottom: 30px;
+}
+.collect-steps-container {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: calc(50% - 300px);
+  top: calc(50% - 200px);
+  background-color: #fff;
+}
+.collect-steps {
+  width: 300px;
+  margin: 20px 50px;
+}
+.collect-steps-box {
+  width: 350px;
+  /* margin: 10px 100px; */
+  /* height: 200px; */
+  position: relative;
+  bottom: 40px;
+}
+.collect-buttons {
+  width: 200px;
+  margin: 10px 100px;
+}
+.collect-prev {
+  position: relative;
+  bottom: 55px;
+  left: 190px;
+}
+.collect-finish {
+  /* margin-left: 50px; */
+}

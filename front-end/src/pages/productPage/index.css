@@ -1,0 +1,97 @@
+.cardList {
+  margin-bottom: -24px;
+}
+.cardList .card :global .ant-card-meta-title {
+  margin-bottom: 12px;
+}
+.cardList .card :global .ant-card-meta-title > a {
+  display: inline-block;
+  max-width: 100%;
+  color: pink;
+}
+.cardList .card :global .ant-card-body:hover .ant-card-meta-title > a {
+  color: white;
+}
+.cardList .item {
+  height: 64px;
+}
+
+.cardList :global .ant-list .ant-list-item-content-single {
+  max-width: 100%;
+}
+.extraImg {
+  width: 155px;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.extraImg img {
+  width: 100%;
+}
+.newButton {
+  width: 100%;
+  height: 188px;
+  color: rgba(75, 75, 75, 0.7);
+  background-color: rgba(75, 75, 75, 0.02);
+  border-color: rgba(75, 75, 75, 0.7);
+  border-radius: 4px;
+}
+.cardAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+}
+.pageHeaderContent {
+  position: relative;
+  padding: 20px 30px;
+}
+.contentLink {
+  font-size: 15px;
+}
+.contentLink a {
+  margin-right: 32px;
+}
+.contentLink a img {
+  width: 24px;
+}
+.contentLink img {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+@media screen and (max-width: 1080px) {
+  .contentLink a {
+    margin-right: 16px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .extraImg {
+    display: none;
+  }
+}
+@media screen and (max-width: 680px) {
+  .pageHeaderContent {
+    padding-bottom: 30px;
+  }
+  .contentLink {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 1000px;
+  }
+  .contentLink a {
+    margin-right: 16px;
+  }
+  .contentLink img {
+    margin-right: 4px;
+  }
+}
+.product-page-header {
+  width: 100%;
+  background-color: #fff;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.product-page-container {
+  position: relative;
+}

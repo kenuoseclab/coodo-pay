@@ -1,0 +1,31 @@
+.alipay-title {
+  text-align: center;
+  font-size: 22px;
+  color: rgba(75, 75, 75, 0.8);
+  line-height: 50px;
+}
+.alipay-icon {
+  /* position: absolute;
+  top: 20px;
+  right: 40px; */
+  font-size: 50px;
+  color: #40a9ff;
+  margin-right: 20px;
+}
+.alipay-page-message {
+  position: absolute;
+  top: 120px;
+  right: 0px;
+  height: 230px;
+  width: 280px;
+  border-left: 4px solid #40a9ff;
+  background-color: rgba(75, 75, 75, 0.01);
+  padding: 0px 20px 20px 20px;
+  line-height: 20px;
+  font-size: 15px;
+}
+.alipay-message-title {
+  font-size: 20px;
+  line-height: 60px;
+  color: black;
+}

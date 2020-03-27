@@ -1,0 +1,47 @@
+.add-step-desc {
+  padding: 0 56px;
+  color: pink;
+}
+.avatar-uploader > .ant-upload {
+  width: 80px;
+  height: 80px;
+}
+.dynamic-delete-button {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  font-size: 24px;
+  color: #999;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+/* .ant-form-item-control {
+  width: 100% !important;
+} */
+.information {
+  line-height: 22px;
+}
+.information :global .ant-row:not(:last-child) {
+  margin-bottom: 24px;
+}
+.information .label {
+  padding-right: 8px;
+  color: pink;
+  text-align: right;
+}
+@media screen and (max-width: 780px) {
+  .information .label {
+    text-align: left;
+  }
+}
+.result {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 0 8px;
+}

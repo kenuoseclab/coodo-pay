@@ -1,0 +1,25 @@
+.mail-page-setting {
+  position: relative;
+}
+.mail-page-message {
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  height: 200px;
+  width: 350px;
+  border-left: 4px solid #40a9ff;
+  background-color: rgba(75, 75, 75, 0.01);
+  padding: 0px 20px 20px 20px;
+  line-height: 20px;
+  font-size: 15px;
+}
+.mail-message-title {
+  font-size: 20px;
+  line-height: 60px;
+  color: black;
+}
+@media screen and (max-width: 1080px) {
+  .mail-page-message {
+    display: none;
+  }
+}

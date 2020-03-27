@@ -1,0 +1,44 @@
+{
+  "name": "coodo-pay",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=10.14"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production nodemon ./bin/www",
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www",
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "logs": "pm2 logs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alipay-ftof": "^0.1.5",
+    "alipay-sdk": "^3.0.8",
+    "cron": "^1.8.2",
+    "cross-env": "^7.0.2",
+    "faker": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-cors": "^0.0.16",
+    "koa-helmet": "^5.2.0",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-logger": "^3.2.1",
+    "koa-morgan": "^1.0.1",
+    "koa-parameter": "^3.0.1",
+    "koa-ratelimit": "^4.2.1",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.9.5",
+    "nodemailer": "^6.4.5",
+    "nodemon": "^2.0.2",
+    "pm2": "^4.2.3",
+    "utility": "^1.16.3"
+  }
+}

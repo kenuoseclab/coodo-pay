@@ -1,0 +1,36 @@
+.card-line {
+  width: 80%;
+  height: 0px;
+  border-bottom: 1px solid black;
+  opacity: 0.1;
+  margin: 20px 0 10px 0;
+  position: absolute;
+  bottom: 30px;
+}
+.ant-card-body {
+  /* padding: 15px !important; */
+  min-height: 180px;
+}
+.card-footer {
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: 0px;
+  font-size: 15px;
+}
+.header-chart-no-data {
+  /* color: black; */
+  font-size: 15px;
+  line-height: 50px;
+}
+.header-day-stats {
+  position: absolute;
+  left: 100px;
+  bottom: 37px;
+  width: 90px;
+}
+.header-day-stats {
+  margin-bottom: 0px;
+}
+.ant-statistic-title {
+  margin-bottom: 0px;
+}

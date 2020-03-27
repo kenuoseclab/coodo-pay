@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47.402" height="96.796" viewBox="0 0 47.402 96.796">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fef3ce"/>
+      <stop offset="1" stop-color="#ecd993"/>
+    </linearGradient>
+    <filter id="路径_253" x="0" y="0" width="47.402" height="96.796" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#路径_253)">
+    <path id="路径_253-2" data-name="路径 253" d="M1670.667,229h29.4v78.8l-14.7-10.247-14.7,10.247Z" transform="translate(-1661.67 -220)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
