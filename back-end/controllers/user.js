@@ -48,8 +48,8 @@ class UserCtl {
       password: { type: "string", required: true }
     });
     const user = await User.findOne({
-      email: ctx.request.body.email,
-      password: md5Pwd(ctx.request.body.password)
+      email: ctx.request.body.email.trim(),
+      password: md5Pwd(ctx.request.body.password.trim())
     });
     // console.log(user);
     if (!user) {
