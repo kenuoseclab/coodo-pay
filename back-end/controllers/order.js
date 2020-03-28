@@ -5,6 +5,7 @@ const { sendMail } = require("../utils/emailUtil");
 const { md5Pwd } = require("../utils/cryptoUtil");
 class OrderCtl {
   async verifyCode(ctx) {
+    // console.log(ctx.request.body, ctx.request.body.code);
     const order = await Order.findOne({ code: ctx.request.body.code });
     if (!order) {
       ctx.throw(401, "未找到您的订单信息");
