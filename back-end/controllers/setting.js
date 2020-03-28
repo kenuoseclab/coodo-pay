@@ -6,6 +6,7 @@ class SettingCtl {
     ctx.body = await Setting.findOne();
   }
   async updateSetting(ctx) {
+    // console.log(ctx.request.body);
     ctx.verifyParams({
       themeOption: {
         type: "string",

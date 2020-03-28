@@ -12,18 +12,14 @@
 </p>
 <br/>
 <br/>
-<p align="center">前台页面展示</p>
 
-<div align="center">
-<img src="https://universitytongji-my.sharepoint.cn/personal/limm_alumni_tongji_edu_cn/_layouts/52/download.aspx?share=ESaliHDKtm1Flyj-u3ovYYUBBC8Ot8WdtxzVVdJDa6GWkw" >
-<img src="https://universitytongji-my.sharepoint.cn/personal/limm_alumni_tongji_edu_cn/_layouts/52/download.aspx?share=Eb2k6MCMGxtJoM_LYt6fUpQB0RP_ZW2JC_IfsyR40b947g" >
-</div>
+## 预览地址
 
-<p align="center">后台管理系统展示</p>
+[前台产品页](https://coodo.960960.xyz/#/product/5) （欢迎打赏）
 
-<div>
-<img src="https://universitytongji-my.sharepoint.cn/personal/limm_alumni_tongji_edu_cn/_layouts/52/download.aspx?share=Eaoq8O4tAUhBrG_ZoA3q0GAB6U6yqMWvJGOI7u2wbHHPfA" >
-</div>
+[后台管理系统](https://coodo.960960.xyz/#/product/5)（账号：coodo@pay.com  密码：123456）
+
+
 
 ## 简介
 

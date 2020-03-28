@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "CoodoPay",
+      name: "Coodo-Pay",
       script: "./bin/www",
       instances: "max",
       env: {

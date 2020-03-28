@@ -52,6 +52,7 @@ class initUtil {
       }).save();
     }
     const setting = await Setting.find();
+    // console.log(setting);
     if (setting.length === 0) {
       await Setting({
         themeOption: "default",
