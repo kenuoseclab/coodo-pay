@@ -16,7 +16,7 @@
 
 <div align="center">
 <img src="https://universitytongji-my.sharepoint.cn/personal/limm_alumni_tongji_edu_cn/_layouts/52/download.aspx?share=ESaliHDKtm1Flyj-u3ovYYUBBC8Ot8WdtxzVVdJDa6GWkw" >
-<img src="https://universitytongji-my.sharepoint.cn/personal/limm_alumni_tongji_edu_cn/_layouts/52/download.aspx?share=EdCo09txutBOic32WbiBVdcBu8zm1s0xxjGD1339pENoUw" >
+<img src="https://universitytongji-my.sharepoint.cn/personal/limm_alumni_tongji_edu_cn/_layouts/52/download.aspx?share=Eb2k6MCMGxtJoM_LYt6fUpQB0RP_ZW2JC_IfsyR40b947g" >
 </div>
 
 <p align="center">后台管理系统展示</p>
