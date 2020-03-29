@@ -15,7 +15,7 @@ const cors = require("koa2-cors");
 const koaStatic = require("koa-static");
 const { connection } = require("./config");
 const { initData } = require("./utils/initUtil");
-const { salesCron, statsCron } = require("./utils/cronJobs");
+// const { salesCron, statsCron } = require("./utils/cronJobs");
 
 mongoose.connect(connection, { useNewUrlParser: true }, () => {
   console.log("连接成功");
@@ -67,7 +67,7 @@ app.use(
 app.use(parameter(app));
 routing(app);
 
-salesCron();
-statsCron();
+// salesCron();
+// statsCron();
 initData();
 module.exports = app;

@@ -49,9 +49,14 @@ class Query extends Component {
     }
   };
   showModal = () => {
-    this.setState({
-      orderInfo: JSON.parse(decrypt(localStorage.getItem("orderInfo")))
-    });
+    if (localStorage.getItem("orderInfo")) {
+      this.setState({
+        orderInfo: JSON.parse(decrypt(localStorage.getItem("orderInfo")))
+      });
+    } else {
+      message.warning("未查询到订单信息");
+    }
+
     this.setState({
       dialogVisible: true
     });

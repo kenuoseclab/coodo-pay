@@ -61,7 +61,7 @@ const setStats = async () => {
 };
 class CronJobs {
   salesCron() {
-    const salesJob = new CronJob("01 59 23 * * *", setSalesData, null, true);
+    const salesJob = new CronJob("01 59 23 * * *", setData, null, true);
 
     salesJob.start();
   }

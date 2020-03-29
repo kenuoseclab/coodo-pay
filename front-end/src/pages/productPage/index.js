@@ -41,12 +41,22 @@ class ProductPage extends Component {
             handleFetchAllProduct();
           })
           .catch(err => console.log(err));
-        // return new Promise((resolve, reject) => {
-        //   setTimeout(Math.random() > 0.5 ? resolve : reject, 1000);
-        // }).catch(() => console.log("Oops errors!"));
       },
       onCancel() {}
     });
+  };
+  handleAddProduct = () => {
+    if (
+      this.props.alipay.secretKey === " " &&
+      this.props.wechatPay.secretKey === " " &&
+      this.props.alipay.secretKey === " "
+    ) {
+      message.warning("暂未配置支付信息");
+    } else if (this.props.email.mailPassword === " ") {
+      message.warning("暂未配置邮箱信息");
+    } else {
+      this.props.history.push("/productAdd");
+    }
   };
   render() {
     let { loading } = this.state;
@@ -145,15 +155,14 @@ class ProductPage extends Component {
 
               return (
                 <List.Item>
-                  <Link to="/productAdd">
-                    <Button
-                      type="dashed"
-                      className={"newButton"}
-                      style={{ fontSize: "15px", height: "200px" }}
-                    >
-                      <PlusOutlined /> 新增产品
-                    </Button>
-                  </Link>
+                  <Button
+                    type="dashed"
+                    className={"newButton"}
+                    style={{ fontSize: "15px", height: "200px" }}
+                    onClick={this.handleAddProduct}
+                  >
+                    <PlusOutlined /> 新增产品
+                  </Button>
                 </List.Item>
               );
             }}
@@ -165,7 +174,11 @@ class ProductPage extends Component {
 }
 const mapStateToProps = state => {
   return {
-    allProducts: state.product.allProducts
+    allProducts: state.product.allProducts,
+    alipay: state.form.alipay,
+    wechatPay: state.form.wechatPay,
+    paypal: state.form.paypal,
+    email: state.form.email
   };
 };
 const actionCreator = {
