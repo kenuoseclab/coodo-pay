@@ -74,11 +74,11 @@ class AddStep extends Component {
   render() {
     let formData;
     if (this.props.formData) {
-      formData = this.props;
+      formData = this.props.formData;
     } else if (this.state.formData) {
-      formData = this.state;
+      formData = this.state.formData;
     }
-    // console.log(formData);
+    console.log(formData);
     const renderLevelDesc = () => {
       let arr = [];
       for (let i = 1; i <= this.state.levels; i++) {
