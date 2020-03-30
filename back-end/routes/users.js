@@ -4,13 +4,13 @@ const jwt = require("koa-jwt");
 const { secret } = require("../config");
 const auth = jwt({ secret });
 const router = new Router({ prefix: "/api/user" });
-
 const {
   fetchUser,
   createUser,
   loginUser,
   updateUser,
-  forgetUser
+  forgetUser,
+  verifyAnswer
 } = require("../controllers/user");
 const db = new Map();
 const ratelimit = require("koa-ratelimit");
@@ -30,6 +30,7 @@ const ipBasedRatelimit = ratelimit({
 });
 
 router.get("/", auth, fetchUser);
+router.post("/verify", auth, verifyAnswer);
 router.post("/", createUser);
 router.post("/login", ipBasedRatelimit, loginUser);
 router.post("/forget", ipBasedRatelimit, forgetUser);

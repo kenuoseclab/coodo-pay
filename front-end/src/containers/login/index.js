@@ -31,7 +31,7 @@ class Login extends Component {
         .then(res => {
           // console.log(res.data);
           localStorage.setItem("jwt", res.data);
-          this.props.history.push("/dashboard");
+          this.props.history.push("/productList");
         })
         .catch(err => {
           message.error("登录失败");

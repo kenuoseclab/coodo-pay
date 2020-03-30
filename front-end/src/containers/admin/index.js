@@ -30,29 +30,31 @@ class App extends Component {
     // console.log(nextProps);
     this.setState({
       loading: !(
-        nextProps.salesByPeriod &&
-        nextProps.visitsByPeriod &&
-        nextProps.ordersByPeriod &&
-        nextProps.allSales &&
-        nextProps.allVisits &&
-        nextProps.allOrders &&
-        nextProps.salesByYear &&
-        nextProps.visitsByYear &&
-        nextProps.ordersByYear &&
-        nextProps.salesByMonth &&
-        nextProps.visitsByMonth &&
-        nextProps.ordersByMonth &&
-        nextProps.salesByWeek &&
-        nextProps.visitsByWeek &&
-        nextProps.ordersByWeek &&
-        nextProps.allProducts &&
-        nextProps.alipay &&
-        nextProps.wechatPay &&
-        nextProps.paypal &&
-        nextProps.email &&
-        nextProps.user &&
-        nextProps.setting &&
-        nextProps.period
+        // nextProps.salesByPeriod &&
+        // nextProps.visitsByPeriod &&
+        // nextProps.ordersByPeriod &&
+        // nextProps.allSales &&
+        // nextProps.allVisits &&
+        // nextProps.allOrders &&
+        // nextProps.salesByYear &&
+        // nextProps.visitsByYear &&
+        // nextProps.ordersByYear &&
+        // nextProps.salesByMonth &&
+        // nextProps.visitsByMonth &&
+        // nextProps.ordersByMonth &&
+        // nextProps.salesByWeek &&
+        // nextProps.visitsByWeek &&
+        // nextProps.ordersByWeek &&
+        (
+          nextProps.allProducts &&
+          nextProps.alipay &&
+          nextProps.wechatPay &&
+          nextProps.paypal &&
+          nextProps.email &&
+          nextProps.user &&
+          nextProps.setting
+        )
+        // nextProps.period
       )
     });
   }

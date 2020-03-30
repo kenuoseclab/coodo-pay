@@ -11,10 +11,15 @@ class Alipay extends Component {
     this.state = {};
   }
   onFinish = values => {
-    $axios.post(`/alipay/${this.props.formData._id}`, values).then(() => {
-      message.success("保存成功");
-      this.props.handleFetchForm();
-    });
+    $axios
+      .post(`/alipay/${this.props.formData._id}`, values)
+      .then(() => {
+        message.success("保存成功");
+        this.props.handleFetchForm();
+      })
+      .catch(() => {
+        message.error("验证失败");
+      });
   };
   render() {
     // console.log(this.props.formData);
@@ -60,7 +65,7 @@ class Alipay extends Component {
           {...formItemLayout}
           onFinish={this.onFinish}
           onFinishFailed={this.onFinishFailed}
-          initialValues={this.props.formData ? this.props.formData : null}
+          // initialValues={this.props.formData ? this.props.formData : null}
           style={{ marginTop: "40px" }}
         >
           <Form.Item label="支付名称" name="paymentName">
@@ -121,6 +126,30 @@ class Alipay extends Component {
             ]}
           >
             <Input placeholder="请输入您的服务器域名，请带上http或https" />
+          </Form.Item>
+          <Form.Item
+            label="问题一"
+            name="answer1"
+            rules={[
+              {
+                required: true,
+                message: "请输入您就读小学的所在城市"
+              }
+            ]}
+          >
+            <Input placeholder="请输入您就读小学的所在城市" />
+          </Form.Item>
+          <Form.Item
+            label="问题二"
+            name="answer2"
+            rules={[
+              {
+                required: true,
+                message: "请输入您最高学历就读学校的所在城市"
+              }
+            ]}
+          >
+            <Input placeholder="请输入您最高学历就读学校的所在城市" />
           </Form.Item>
           <Form.Item {...formItemLayoutWithOutLabel}>
             <Button type="primary" htmlType="submit">

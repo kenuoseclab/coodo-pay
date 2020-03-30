@@ -14,10 +14,10 @@ const {
   // addVisits
 } = require("../controllers/home");
 
-router.get("/stats", auth, getStats);
-router.post("/stats", createStats);
-router.get("/salesData", auth, getSalesData);
-router.post("/salesData", createSalesData);
+router.get("/stats", getStats);
+// router.post("/stats", createStats);
+router.get("/salesData", getSalesData);
+// router.post("/salesData", createSalesData);
 // router.get("/addVisits", addVisits);
 
 // router.post("/upload", auth, upload);

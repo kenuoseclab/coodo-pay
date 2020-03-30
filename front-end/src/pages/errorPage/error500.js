@@ -5,7 +5,7 @@ import "./error.scss";
 
 const Error500 = props => {
   const goback = () => {
-    props.history.push("/dashboard");
+    props.history.push("/productList");
   };
   return (
     <Row gutter={24} className="wrap-500">

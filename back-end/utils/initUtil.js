@@ -10,7 +10,7 @@ const User = require("../models/user");
 
 class initUtil {
   async initData() {
-    // await Setting.deleteMany({}, () => {
+    // await User.deleteMany({}, () => {
     //   console.log("delete success");
     // });
     const alipay = await Alipay.find();
@@ -77,23 +77,23 @@ class initUtil {
         todayVisits: 0
       }).save();
     }
-    let date = new Date();
-    const stat = await Stats.findOne({ date: date.toLocaleDateString() });
-    if (!stat) {
-      let date = new Date();
-      await Stats({
-        date: date.toLocaleDateString(),
-        number: 0,
-        year: date.getFullYear(),
-        month: date.getMonth() + 1,
-        day: date.getDate(),
-        week: date.getDay(),
-        totalSales: 0,
-        totalVisits: 0,
-        totalOrders: 0,
-        todayVisits: 0
-      }).save();
-    }
+    // let date = new Date();
+    // const stat = await Stats.findOne({ date: date.toLocaleDateString() });
+    // if (!stat) {
+    //   let date = new Date();
+    //   await Stats({
+    //     date: date.toLocaleDateString(),
+    //     number: 0,
+    //     year: date.getFullYear(),
+    //     month: date.getMonth() + 1,
+    //     day: date.getDate(),
+    //     week: date.getDay(),
+    //     totalSales: 0,
+    //     totalVisits: 0,
+    //     totalOrders: 0,
+    //     todayVisits: 0
+    //   }).save();
+    // }
 
     const salesData = await SalesData.find();
     if (salesData.length === 0) {

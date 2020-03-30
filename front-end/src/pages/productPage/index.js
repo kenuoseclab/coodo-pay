@@ -1,6 +1,15 @@
 import React, { Component } from "react";
 import { PlusOutlined, ExclamationCircleOutlined } from "@ant-design/icons";
-import { Button, Card, List, Typography, Modal, message } from "antd";
+import {
+  Button,
+  Card,
+  List,
+  Typography,
+  Modal,
+  message,
+  Form,
+  Input
+} from "antd";
 import "./index.css";
 // import { fakeList } from "@/mock/productPage";
 import { connect } from "react-redux";
@@ -9,19 +18,39 @@ import $axios from "@/$axios";
 import { handleFetchAllProduct } from "../../redux/product.redux";
 const { confirm } = Modal;
 const { Paragraph } = Typography;
+const layout = {
+  labelCol: { span: 6 },
+  wrapperCol: { span: 14 }
+};
+const tailLayout = {
+  wrapperCol: { offset: 10, span: 16 }
+};
 class ProductPage extends Component {
   constructor(props) {
     super(props);
-    this.state = { loading: false };
+    this.state = { loading: false, visible: false, deleteIndex: null };
   }
-  componentDidMount() {
-    this.setState({ loading: true });
-    setTimeout(() => {
-      this.setState({
-        loading: false
+  handleVerify = index => {
+    this.setState({ visible: true });
+    this.setState({ deleteIndex: index });
+  };
+  handleCancel = () => {
+    this.setState({ visible: false });
+  };
+  onFinish = values => {
+    // console.log(values);
+    $axios
+      .post("/user/verify", values)
+      .then(() => {
+        this.showConfirm(this.state.deleteIndex);
+        this.setState({ visible: false });
+        message.success("验证成功");
+      })
+      .catch(() => {
+        message.error("验证失败");
+        // this.setState({ visible: false });
       });
-    }, 500);
-  }
+  };
   showConfirm = index => {
     let { allProducts } = this.props;
     // console.log(this.props.allProducts, index, "products1");
@@ -59,7 +88,7 @@ class ProductPage extends Component {
     }
   };
   render() {
-    let { loading } = this.state;
+    const { visible, loading } = this.state;
     // console.log(this.props.allProducts[0]._id, "products");
     const content = (
       <div className={"pageHeaderContent"} style={{ padding: "20px" }}>
@@ -84,11 +113,63 @@ class ProductPage extends Component {
     return (
       <div className="product-page-container">
         <div className="product-page-header">{content}</div>
-
+        <Modal
+          visible={visible}
+          title="这是一个危险操作，我们需要验证你的身份"
+          // onOk={this.handleOk}
+          onCancel={this.handleCancel}
+          footer={[
+            <Button
+              key="submit"
+              type="primary"
+              loading={loading}
+              onClick={this.handleCancel}
+            >
+              取消
+            </Button>
+          ]}
+        >
+          <Form
+            {...layout}
+            onFinish={this.onFinish}
+            onFinishFailed={this.onFinishFailed}
+            // initialValues={this.props.formData ? this.props.formData : null}
+            // style={{ marginTop: "40px" }}
+          >
+            <Form.Item
+              label="问题一"
+              name="answer1"
+              rules={[
+                {
+                  required: true,
+                  message: "请输入您就读小学的所在城市"
+                }
+              ]}
+            >
+              <Input placeholder="请输入您就读小学的所在城市" />
+            </Form.Item>
+            <Form.Item
+              label="问题二"
+              name="answer2"
+              rules={[
+                {
+                  required: true,
+                  message: "请输入您最高学历就读学校的所在城市"
+                }
+              ]}
+            >
+              <Input placeholder="请输入您最高学历就读学校的所在城市" />
+            </Form.Item>
+            <Form.Item {...tailLayout}>
+              <Button type="primary" htmlType="submit">
+                验证回答
+              </Button>
+            </Form.Item>
+          </Form>
+        </Modal>
         <div className={"cardList"} style={{ padding: "20px" }}>
           <List
             rowKey="id"
-            loading={loading}
             grid={{
               gutter: 24,
               lg: 3,
@@ -111,7 +192,7 @@ class ProductPage extends Component {
                         <a
                           key="delete"
                           onClick={() => {
-                            this.showConfirm(index);
+                            this.handleVerify(index);
                           }}
                         >
                           删除

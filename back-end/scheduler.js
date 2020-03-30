@@ -64,7 +64,8 @@ const setStats = async () => {
   number++;
   //统计销售数据
   date.setDate(date.getDate() + 1);
-  const stat = await new Stats({
+
+  await new Stats({
     date: date.toLocaleDateString(),
     number: number,
     year: date.getFullYear(),
@@ -76,6 +77,7 @@ const setStats = async () => {
     totalOrders: totalOrders,
     todayVisits: 0
   }).save();
+
   // console.log(stat, "stat");
 };
 setSalesData();

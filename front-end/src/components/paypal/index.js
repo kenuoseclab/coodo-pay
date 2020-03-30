@@ -58,7 +58,7 @@ class Paypal extends Component {
           {...formItemLayout}
           onFinish={this.onFinish}
           onFinishFailed={this.onFinishFailed}
-          initialValues={this.props.formData ? this.props.formData : null}
+          // initialValues={this.props.formData ? this.props.formData : null}
           style={{ marginTop: "40px" }}
         >
           <Form.Item label="支付名称" name="paymentName">
@@ -123,6 +123,30 @@ class Paypal extends Component {
               <Select.Option value="生产模式">生产模式</Select.Option>
               <Select.Option value="沙盒模式">沙盒模式</Select.Option>
             </Select>
+          </Form.Item>
+          <Form.Item
+            label="问题一"
+            name="answer1"
+            rules={[
+              {
+                required: true,
+                message: "请输入您就读小学的所在城市"
+              }
+            ]}
+          >
+            <Input placeholder="请输入您就读小学的所在城市" />
+          </Form.Item>
+          <Form.Item
+            label="问题二"
+            name="answer2"
+            rules={[
+              {
+                required: true,
+                message: "请输入您最高学历就读学校的所在城市"
+              }
+            ]}
+          >
+            <Input placeholder="请输入您最高学历就读学校的所在城市" />
           </Form.Item>
           <Form.Item {...formItemLayoutWithOutLabel}>
             <Button type="primary" htmlType="submit" disabled>

@@ -35,7 +35,7 @@ class MainContent extends Component {
               path={ele.path}
             />
           ))}
-          <Redirect from="/" exact to="/dashboard" />
+          <Redirect from="/" exact to="/productList" />
           <Redirect to="/error/404" />
         </Switch>
         <div className="default-footer">

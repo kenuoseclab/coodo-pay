@@ -10,10 +10,15 @@ class MailPage extends Component {
     this.state = {};
   }
   onFinish = values => {
-    $axios.post(`/email/${this.props.email._id}`, values).then(() => {
-      message.success("保存成功");
-      this.props.handleFetchForm();
-    });
+    $axios
+      .post(`/email/${this.props.email._id}`, values)
+      .then(() => {
+        message.success("保存成功");
+        this.props.handleFetchForm();
+      })
+      .catch(() => {
+        message.error("验证失败");
+      });
   };
   render() {
     const formItemLayoutWithOutLabel = {
@@ -75,7 +80,7 @@ class MailPage extends Component {
             {...formItemLayout}
             onFinish={this.onFinish}
             onFinishFailed={this.onFinishFailed}
-            initialValues={this.props.email ? this.props.email : null}
+            // initialValues={this.props.email ? this.props.email : null}
             style={{ marginTop: "40px" }}
           >
             <Form.Item
@@ -114,7 +119,30 @@ class MailPage extends Component {
             >
               <Input placeholder="请输入发件人昵称" />
             </Form.Item>
-
+            <Form.Item
+              label="问题一"
+              name="answer1"
+              rules={[
+                {
+                  required: true,
+                  message: "请输入您就读小学的所在城市"
+                }
+              ]}
+            >
+              <Input placeholder="请输入您就读小学的所在城市" />
+            </Form.Item>
+            <Form.Item
+              label="问题二"
+              name="answer2"
+              rules={[
+                {
+                  required: true,
+                  message: "请输入您最高学历就读学校的所在城市"
+                }
+              ]}
+            >
+              <Input placeholder="请输入您最高学历就读学校的所在城市" />
+            </Form.Item>
             <Form.Item {...formItemLayoutWithOutLabel}>
               <Button type="primary" htmlType="submit">
                 保存

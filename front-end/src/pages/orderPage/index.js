@@ -6,6 +6,7 @@ import moment from "moment";
 // import "./index.css";
 const dateFormat = "YYYY-MM-DD";
 const { Search } = Input;
+
 class TableSearch extends Component {
   state = {
     data: [],

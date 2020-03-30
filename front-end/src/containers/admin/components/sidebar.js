@@ -68,14 +68,6 @@ class Sidebar extends Component {
           defaultSelectedKeys={[menuSelected]}
           selectedKeys={[menuSelected]}
         >
-          <Menu.Item key="/dashboard">
-            <Link to="/dashboard">
-              <DashboardOutlined />
-              <span className="nav-text" style={{ marginLeft: "7px" }}>
-                仪表盘
-              </span>
-            </Link>
-          </Menu.Item>
           <Menu.Item key="/productList">
             <Link to="/productList">
               <AccountBookOutlined />
@@ -104,6 +96,14 @@ class Sidebar extends Component {
             <Link to="/theme">
               <SkinOutlined />
               <span className="nav-text">主题设置</span>
+            </Link>
+          </Menu.Item>
+          <Menu.Item key="/dashboard">
+            <Link to="/dashboard">
+              <DashboardOutlined />
+              <span className="nav-text">
+                统计数据
+              </span>
             </Link>
           </Menu.Item>
           <Menu.Item key="/account">

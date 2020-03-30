@@ -24,17 +24,24 @@ const setSalesData = async () => {
     date: date.toLocaleDateString()
   });
   //新建销售记录
-  new SalesData({
-    date: date.toLocaleDateString(),
-    number: number,
-    year: date.getFullYear(),
-    month: date.getMonth() + 1,
-    day: date.getDate(),
-    week: date.getDay(),
-    sales: sales,
-    orders: todayOrders.length,
-    visits: todayVisits
-  }).save();
+  const sale = SalesData.findOne({
+    date: date.toLocaleDateString()
+  });
+  //解决sceduler.js 和 cronjob 重复添加的问题
+
+  if (!sale) {
+    new SalesData({
+      date: date.toLocaleDateString(),
+      number: number,
+      year: date.getFullYear(),
+      month: date.getMonth() + 1,
+      day: date.getDate(),
+      week: date.getDay(),
+      sales: sales,
+      orders: todayOrders.length,
+      visits: todayVisits
+    }).save();
+  }
 };
 const setStats = async () => {
   let date = new Date();
@@ -46,18 +53,22 @@ const setStats = async () => {
   number++;
   //统计销售数据
   date = new Date();
-  new Stats({
-    date: date.toLocaleDateString(),
-    number: number,
-    year: date.getFullYear(),
-    month: date.getMonth() + 1,
-    day: date.getDate(),
-    week: date.getDay(),
-    totalSales: totalSales,
-    totalVisits: totalVisits,
-    totalOrders: totalOrders,
-    todayVisits: 0
-  }).save();
+  const stat = Stats.findOne({ date: date.toLocaleDateString() });
+  //解决sceduler.js 和 cronjob 重复添加的问题
+  if (!stat) {
+    new Stats({
+      date: date.toLocaleDateString(),
+      number: number,
+      year: date.getFullYear(),
+      month: date.getMonth() + 1,
+      day: date.getDate(),
+      week: date.getDay(),
+      totalSales: totalSales,
+      totalVisits: totalVisits,
+      totalOrders: totalOrders,
+      todayVisits: 0
+    }).save();
+  }
 };
 class CronJobs {
   salesCron() {

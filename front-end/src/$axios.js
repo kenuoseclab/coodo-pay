@@ -35,43 +35,23 @@ $axios.interceptors.request.use(
 // 添加响应拦截器
 $axios.interceptors.response.use(
   function(response) {
-    // 对响应数据做点什么
-    if (response.data.success === false) {
-      message.error(response.data.message);
-    }
+    //获取更新的token
+    const { authorization } = response.headers;
+    //如果token存在则存在localStorage
+    authorization && localStorage.setItem("tokenName", authorization);
     return response;
   },
   function(error) {
-    if (
-      error.code === "ECONNABORTED" &&
-      error.message.indexOf("timeout") !== -1
-    ) {
-      var config = error.config;
-      config.__retryCount = config.__retryCount || 0;
-
-      if (config.__retryCount >= config.retry) {
-        // Reject with the error
-        //window.location.reload();
-        return Promise.reject(error);
+    if (error.response) {
+      const { status } = error.response;
+      //如果401或405则到登录页
+      if (status == 401 || status == 405) {
+        // history.push("/login");
+        localStorage.removeItem("jwt");
+        window.location.reload();
       }
-
-      // Increase the retry count
-      config.__retryCount += 1;
-
-      // Create new promise to handle exponential backoff
-      var backoff = new Promise(function(resolve) {
-        setTimeout(function() {
-          //console.log('resolve');
-          resolve();
-        }, config.retryDelay || 1);
-      });
-
-      return backoff.then(function() {
-        return axios(config);
-      });
-    } else {
-      return Promise.reject(error);
     }
+    return Promise.reject(error);
   }
 );
 

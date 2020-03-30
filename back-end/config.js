@@ -6,7 +6,7 @@ module.exports = {
   port: 3001,
   secret: "coodo-pay",
   connection:
-    process.env.REMOTE_DEMO_DB ||
+    process.env.REMOTE_PROD_DB ||
     "mongodb+srv://username:password@coodo-pay.mongodb.net/test?retryWrites=true&w=majority",
   publicDir: path.resolve(__dirname, "./public"),
   logPath: path.resolve(__dirname, "./logs/koa-template.log"),
